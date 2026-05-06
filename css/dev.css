@@ -1,0 +1,16 @@
+breadcrumb a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  margin: 0 5px;
+  color: #fff;
+}
+.breadcrumb a {
+  color: #fff;
+}

@@ -1,0 +1,1456 @@
+
+.new-header-dd {
+    display: flex;
+    align-items: center;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a:hover {
+    color: #fff !important;
+    background: #0d2c54 !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+/* Ensures the dropdown displays when triggered on mobile */
+.dropdown-menu.show {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.urja-m-v-v{
+    background:linear-gradient(169deg,#172c6d,#006646);
+}
+.new-urja-home-about{
+padding:110px 0;
+background:#f8f9fc;
+position:relative;
+overflow:hidden;
+}
+
+/* subtitle */
+
+.about-subtitle{
+color:#000;
+letter-spacing:1px;
+font-size:17px;
+font-weight:600;
+text-transform:uppercase;
+}
+
+.about-title{
+font-size:40px;
+font-weight:700;
+margin:12px 0 20px;
+}
+
+.about-text{
+color:#666;
+line-height:28px;
+margin-bottom:30px;
+}
+
+/* IMAGE */
+
+.urja-image-wrapper{
+position:relative;
+width:100%;
+}
+
+.urja-about-img{
+width:100%;
+clip-path:polygon(0 0,100% 0,100% 85%,85% 100%,0 100%);
+border-radius:10px;
+box-shadow:0 20px 50px rgba(0,0,0,0.15);
+position:relative;
+z-index:2;
+}
+.urja-footer-buttons a {
+    color: #000 !important;
+}
+/* shape */
+
+.shape-bg{
+position:absolute;
+width:100%;
+height:100%;
+background:linear-gradient(169deg,#172c6d,#006646);
+top:20px;
+left:20px;
+border-radius:10px;
+z-index:1;
+animation:floatShape 6s ease-in-out infinite;
+}
+
+@keyframes floatShape{
+0%{transform:translateY(0)}
+50%{transform:translateY(-10px)}
+100%{transform:translateY(0)}
+}
+
+/* MISSION VISION DESIGN */
+
+.urja-feature-row{
+margin-top:20px;
+}
+
+.mvv-box{
+background:#fff;
+padding:30px 20px;
+border-radius:10px;
+text-align:center;
+position:relative;
+transition:0.4s;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+overflow:hidden;
+}
+
+/* top gradient bar */
+
+.mvv-box::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:4px;
+background:linear-gradient(90deg,#172c6d,#006646);
+}
+
+/* icon */
+
+.mvv-icon{
+width:65px;
+height:65px;
+margin:auto;
+background:linear-gradient(135deg,#172c6d,#006646);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-bottom:15px;
+}
+
+.mvv-icon img{
+width:28px;
+filter:brightness(0) invert(1);
+}
+
+/* text */
+
+.mvv-box h6{
+font-weight:700;
+font-size:18px;
+margin-bottom:10px;
+}
+
+.mvv-box p{
+font-size:14px;
+color:#666;
+line-height:24px;
+margin:0;
+}
+
+/* hover */
+
+.mvv-box:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* SCROLL ANIMATION */
+
+.reveal-left,
+.reveal-right{
+opacity:0;
+transition:all .9s ease;
+}
+
+.reveal-left{
+transform:translateX(-70px);
+}
+
+.reveal-right{
+transform:translateX(70px);
+}
+
+.reveal-active{
+opacity:1;
+transform:translateX(0);
+}
+  
+  
+  
+  .urja-read-btn{
+display:inline-block;
+margin-bottom:35px;
+padding:12px 28px;
+background:linear-gradient(135deg,#172c6d,#006646);
+color:#fff;
+font-weight:600;
+border-radius:6px;
+text-decoration:none;
+transition:0.4s;
+}
+
+.urja-read-btn:hover{
+background:linear-gradient(135deg,#006646,#172c6d);
+color:#fff;
+transform:translateY(-3px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+  
+  
+  
+  
+  
+  
+  /* header sub dd */
+  /* dropdown item */
+.urja-subdropdown li {
+    position: relative;
+    border-bottom: 1px solid #0d2c54;
+}
+.pages-inner-heading {
+    font-size: 35px !important;
+    letter-spacing: 1px !important;
+}
+/* dropdown link */
+.urja-subdropdown li a {
+    display: block;
+    padding: 12px 20px;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5 !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* left hover line */
+.urja-subdropdown li a::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    width: 3px;
+    height: 0;
+    background: #fff;
+    transform: translateY(-50%);
+    transition: height 0.3s ease;
+}
+
+/* hover */
+.urja-subdropdown li a:hover {
+    color: #ff6a00;
+    padding-left: 28px;
+}
+
+/* show line */
+.urja-subdropdown li a:hover::before {
+    height: 60%;
+}
+
+  .about-banner {
+      background-image: url('../images/urja/banner/about-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+
+  .product-banner {
+      background-image: url('../images/urja/banner/product-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+    .hr-banner {
+      background-image: url('../images/urja/banner/product-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+   .bright-banner {
+      background-image: url('../images/urja/banner/bright-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+   .pipes-banner {
+      background-image: url('../images/urja/banner/pipes-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+   .round-banner {
+      background-image: url('../images/urja/banner/round-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+    .steel-banner {
+      background-image: url('../images/urja/banner/billets-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .contact-banner {
+      background-image: url('../images/urja/banner/contact-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+  .career-banner {
+      background-image: url('../images/urja/banner/career-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+  }
+
+/* about image css */
+.mv-box{
+    height: 450px !important;
+    padding: 50px !important;
+    width: 450px !important;
+}
+.mission-img{
+    opacity: 0.5;
+}
+.about-mv{
+    width: 100px;
+    margin: auto;
+}
+/* gradient background color */
+.bg-gradient-misty-rose {
+    background-image: linear-gradient(360deg, rgb(249 249 249) 0%, #f9f9f9 100%);
+}
+/* text gradient color */
+.text-gradient-light-gray-white {
+    background-image: linear-gradient(to bottom, #eaeaea, #efefef, #f7f7f7, #fafafa, #ffffff); 
+} 
+/* background */
+.bg-bright-turquoise {
+    background-color: #dcdcdc;
+}
+.bg-seashell {
+    background-color: #fff6f3;
+}
+.bg-base-color-transparent {
+    background-color: rgba(255, 96, 54, .8);
+}
+/* text gradient color */
+.text-gradient-base-color {
+ background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0)) text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-orange{
+    color: #e97522;
+}
+.text-blue{
+    color: #1ea3b1;
+}
+/* bg gradient color */
+.bg-gradient-top-very-light-gray { 
+    background-image:linear-gradient(to right, #fbf3e9, #f9f4eb, #f4f4f0, #f2f4f2, #eff4f4);
+}
+.bg-linen {
+    background: #f6f4f3;
+}
+.bg-gradient-orange-transparent {
+    background: linear-gradient(to right, rgba(233, 117, 34, 1.0) 10%, rgba(255, 255, 255, 0.0) 95%);
+}
+.bg-gradient-blue-transparent {
+    background: linear-gradient(to right, rgba(30, 163, 177, 1.0) 10%, rgba(255, 255, 255, 0.0) 95%);
+}
+
+
+/* Wrapper */
+.urja-tear-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image */
+.urja-tear-img {
+    transform: scale(1.05);
+    animation: urjaImageReveal 2.5s ease forwards;
+    border-radius: 12px;
+}
+.bg-base-color-product{
+    background-color: #ffffff42;
+}
+/* Paper Overlay */
+.urja-tear-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 150%;
+    background: #ffffff;
+    transform: rotate(0deg);
+    transform-origin: left;
+    animation: urjaPaperTear 2.5s cubic-bezier(.77,0,.18,1) forwards;
+    box-shadow: 10px 0 40px rgba(0,0,0,0.2);
+}
+
+/* Tear Animation */
+@keyframes urjaPaperTear {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    40% {
+        transform: translateX(0) rotate(-5deg);
+    }
+    100% {
+        transform: translateX(120%) rotate(-15deg);
+    }
+}
+
+/* Image Slight Cinematic Zoom */
+@keyframes urjaImageReveal {
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.certi-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.certi-card h5{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+
+/* Container styling for the card */
+.certi-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 10px 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Image/Logo styling */
+.certi-card img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    filter: grayscale(20%); /* Optional: gives a uniform look until hovered */
+    transition: transform 0.3s ease;
+}
+
+/* Heading styling */
+.certi-card h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hover Effects */
+.certi-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    border-color: #007bff; /* Primary color highlight */
+}
+
+.certi-card:hover img {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+
+
+
+
+  .urja-text {
+      background: linear-gradient(70deg, #172c6d, #006646);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+font-size: 45px;
+letter-spacing: 0px !important;
+  }
+
+  .urja-text h2 {
+      background: linear-gradient(90deg, #172c6d, #006646);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  /* product  */
+  /* Slider Image */
+
+  /* Main Image Style */
+  .urja-inner-slider img {
+      height: 360px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 14px;
+      filter: blur(6px) brightness(0.9);
+      transform: scale(1.1) rotate(-2deg);
+      transition: all 1s cubic-bezier(.25, .8, .25, 1);
+  }
+
+  /* Active Slide Image Animation */
+  .urja-inner-slider .carousel-item.active img {
+      filter: blur(0) brightness(1);
+      transform: scale(1) rotate(0deg);
+  }
+
+  /* Diagonal Reveal Effect */
+  .urja-slide-wrapper {
+      position: relative;
+      overflow: hidden;
+      border-radius: 14px;
+  }
+
+  .urja-slide-wrapper::before {
+      content: "";
+      position: absolute;
+      top: -100%;
+      left: -100%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(120deg, transparent 40%, rgba(255, 255, 255, 0.15) 50%, transparent 60%);
+      transform: rotate(25deg);
+      transition: all 1.2s ease;
+      opacity: 0;
+  }
+
+  /* Activate diagonal shine */
+  .urja-inner-slider .carousel-item.active .urja-slide-wrapper::before {
+      top: 100%;
+      left: 100%;
+      opacity: 1;
+  }
+
+  /* Overlay */
+  .urja-slide-overlay {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 25px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+      color: #fff;
+      transform: translateY(60px) rotateX(60deg);
+      opacity: 0;
+      transition: all 1s ease;
+  }
+
+  /* Text animation */
+  .urja-inner-slider .carousel-item.active .urja-slide-overlay {
+      transform: translateY(0) rotateX(0deg);
+      opacity: 1;
+  }
+
+  /* Smooth fade */
+  .carousel-fade .carousel-item {
+      transition: opacity 1s ease-in-out;
+  }
+
+  .urja-inner-product {
+      background-color: #fcfcfc;
+      padding: 60px 0;
+      color: #333;
+  }
+
+  .urja-inner-product .section-title {
+      color: #0d2c54;
+      font-weight: 800;
+      position: relative;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+  }
+
+  .urja-inner-product .section-title::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 80px;
+      height: 4px;
+      background-color: #006646;
+  }
+
+  .urja-inner-product .product-card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+      height: 100%;
+      background: #fff;
+  }
+
+  .urja-inner-product .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .urja-inner-product .card-header-custom {
+      background-color: #0d2c54;
+      color: white;
+      padding: 20px;
+      border-radius: 12px 12px 0 0;
+  }
+.card-header-custom{
+    display: flex;
+    align-items: center;
+}
+.card-header-custom img{
+    padding-right: 10px;
+    width: 50px;
+}
+  .urja-inner-product .spec-badge {
+      background-color: #006646;
+      border-left: 4px solid #006646;
+      padding: 10px 15px;
+      margin: 15px 0;
+      font-size: 0.95rem;
+  }
+
+  .urja-inner-product .feature-list {
+      list-style: none;
+      padding-left: 0;
+  }
+
+  .urja-inner-product .feature-list li::before {
+      content: "✓";
+      color: #006646;
+      font-weight: bold;
+      margin-right: 10px;
+  }
+.spec-badge ul li {
+    color: #fff;
+}
+  .urja-inner-product h4 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #0d2c54;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+/* urja company grid system */
+
+
+/* Grid Container */
+.urja-sub-comp {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Grid Item */
+.urja-sub-comp-item {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 10px;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+/* Subtle Underline Hover */
+.urja-sub-comp-item::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 0;
+    height: 2px;
+    background: #c00000;
+    transition: all 0.4s ease;
+    transform: translateX(-50%);
+}
+
+.urja-sub-comp-item:hover::after {
+    width: 60%;
+}
+
+.urja-sub-comp-item:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+/* Container Background Circle */
+.urja-contact-icon {
+    width: 45px;
+    height: 45px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Chat Bubble */
+.urja-contact-icon .contact-icon {
+    position: absolute;
+    font-size: 28px;
+    color: #172c6d;
+}
+/* Bubble Tail */
+.urja-contact-icon .contact-icon ::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 12px;
+    width: 18px;
+    height: 18px;
+    border-left: 3px solid #222;
+    border-bottom: 3px solid #222;
+    border-radius: 0 0 0 12px;
+    background: transparent;
+    transform: rotate(45deg);
+}
+.footer-navbar li {
+    color: #333;
+}
+footer .nav-link {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+}
+/* new design products */
+.us-products{
+    padding:60px 0;
+    background-color: #f5f5f5;
+    /* background: linear-gradient(70deg, #ffffff, #0066468e); */
+    /* background-image: url(../images/urja/product-bg.jpg); */
+}
+.us-products .product-box{
+    background:#e9edf2;
+    border-radius:6px;
+    overflow:hidden;
+    position:relative;
+    height:100%;
+    transition:all .3s ease;
+}
+.us-products .product-box:hover{
+    transform:translateY(-5px);
+}
+.us-products .product-content{
+    padding:18px;
+}
+.us-products .product-title{
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:5px;
+    color:#2c2c2c;
+}
+.us-products .product-price{
+    font-size:14px;
+    color:#6c757d;
+}
+.us-products .product-img{
+    text-align:right;
+}
+.us-products .product-img img{
+    max-height:200px;
+}
+.us-products .plus-btn{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    width:34px;
+    height:34px;
+background: linear-gradient(90deg, #172c6d, #006646);
+    color:#fff;
+    border-radius:4px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    text-decoration:none;
+}
+/* contact us urja about css */
+.urja-contact{
+    background:#f3f3f3;
+    padding:80px 0;
+}
+.urja-contact-box{
+      background: linear-gradient(90deg, #172c6d99, #006646de);
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+.urja-contact h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-weight:600;
+    color: #fff;
+}
+.urja-contact-info{
+    display:flex;
+    align-items:flex-start;
+    margin-bottom:20px;
+    color: #fff;
+}
+.urja-contact-icon{
+    font-size:22px;
+    color:#555;
+    margin-right:15px;
+}
+.urja-contact-info p{
+    margin:0;
+    color:#fff;
+    font-size:14px;
+}
+.urja-contact-form input,
+.urja-contact-form textarea{
+    border-radius:0;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+}
+.urja-submit{
+    background:#fff;
+    color:#000;
+    border:none;
+    padding:10px 30px;
+}
+.urja-submit:hover{
+    background:#fff;
+}
+.urja-phone-img{
+    width:160px;
+    position:absolute;
+    left:-80px;
+    top:50px;
+}
+.urja-about {
+    background: #f8f9fb;
+}
+.urja-about-img {
+    position: relative;
+}
+.urja-about-img .main-img {
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+.experience-box {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-left: 5px solid #e63946;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    max-width: 260px;
+}
+.experience-box h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.experience-box p {
+    font-size: 14px;
+    margin: 0;
+    color: #777;
+}
+.about-tag {
+    color: #e63946;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.about-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0 20px;
+}
+.urja-about-content p {
+    color: #666;
+    line-height: 1.8;
+}
+.about-highlight {
+    margin-top: 20px;
+    padding: 18px;
+    background: #ffffff;
+    border-left: 4px solid #e63946;
+    font-weight: 500;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+
+/* client map */
+.client-map-section{
+background:#f8fafc;
+}
+
+.stat-box{
+background:#fff;
+padding:20px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.06);
+}
+
+.stat-box h3{
+color:#0d6efd;
+font-weight:700;
+}
+
+.india-map-box{
+position:relative;
+width: 100%;
+margin:auto;
+}
+
+.india-map{
+opacity:0.9;
+}
+
+/* Map location dots */
+
+.map-point{
+width:14px;
+height:14px;
+background:#0d6efd;
+border-radius:50%;
+position:absolute;
+box-shadow:0 0 0 rgba(13,110,253,0.7);
+animation:pulse 2s infinite;
+}
+
+
+
+
+
+
+.stat-box{
+background:#fff;
+padding:20px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.06);
+transition:all .35s ease;
+cursor:pointer;
+position:relative;
+overflow:hidden;
+}
+
+/* Number style */
+.stat-box h3{
+color:#0d6efd;
+font-weight:700;
+transition:all .35s ease;
+}
+
+/* Hover Animation */
+.stat-box:hover{
+transform:translateY(-8px) scale(1.05);
+box-shadow: 0 20px 40px rgb(0 0 0 / 15%);
+}
+
+/* Number animation on hover */
+.stat-box:hover h3{
+transform:scale(1.15);
+color:#084298;
+}
+
+/* Glow background animation */
+.stat-box::before{
+content:"";
+position:absolute;
+top:-50%;
+left:-50%;
+width:200%;
+height:200%;
+background: radial-gradient(circle, rgb(255 255 255 / 0%), transparent 60%);
+opacity:0;
+transition:opacity .4s ease;
+}
+
+.stat-box:hover::before{
+opacity:1;
+}
+.stat-box p{
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+}
+/* Locations */
+
+.p1{top:35%; left:45%;}
+.p2{top:48%; left:55%;}
+.p3{top:60%; left:40%;}
+.p4{top:30%; left:60%;}
+.p5{top:55%; left:70%;}
+
+@keyframes pulse{
+0%{
+box-shadow:0 0 0 0 rgba(13,110,253,0.7);
+}
+70%{
+box-shadow:0 0 0 15px rgba(13,110,253,0);
+}
+100%{
+box-shadow:0 0 0 0 rgba(13,110,253,0);
+}
+}
+
+
+
+/* @media (min-width: 991px) {
+    .urja-dropdown:hover > .urja-subdropdown {
+        display: block;
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .dropdown-toggle-icon { display: none; } 
+}
+@media (max-width: 991px) {
+    .urja-subdropdown {
+        position: relative !important;
+        float: none !important;
+        width: 100%;
+        box-shadow: none;
+        background-color: #f8f9fa; 
+        border: none;
+        padding-left: 15px;
+        transform: none !important; 
+    }
+
+    .dropdown-toggle-icon {
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: transform 0.3s ease;
+    }
+    .dropdown-toggle-icon[aria-expanded="true"] {
+        transform: rotate(180deg);
+    }
+}
+
+.urja-subdropdown .dropdown-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+ */
+.grades-sec{
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+.grades-sec h6::before {
+    content: "✓";
+    color: #006646;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+
+.navbar .navbar-nav .dropdown .dropdown-menu li.active > a {
+    color: #ffffff !important;
+}
+
+/* .urja-product-5 {
+    justify-content: center;
+}
+
+.urja-product-5 .product-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.urja-product-5 .product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.urja-product-5 .product-img {
+    overflow: hidden;
+}
+
+.urja-product-5 .product-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+.urja-product-5 .product-card:hover img {
+    transform: scale(1.1);
+}
+
+.urja-product-5 .product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.urja-product-5 .product-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #222;
+} */
+ .urja-product-5 {
+    justify-content: center;
+}
+.urja-product-5 .product-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.urja-product-5 .product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Image */
+.urja-product-5 .product-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.urja-product-5 .product-img img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+/* Overlay */
+.urja-product-5 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, transparent, rgba(0,0,0,0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+/* Button */
+.urja-product-5 .view-btn {
+    background: #fff;
+    color: #000;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transform: translateY(20px);
+    transition: 0.3s ease;
+}
+
+/* Hover Effects */
+.urja-product-5 .product-card:hover img {
+    transform: scale(1.1);
+}
+
+.urja-product-5 .product-card:hover .overlay {
+    opacity: 1;
+}
+
+.urja-product-5 .product-card:hover .view-btn {
+    transform: translateY(0);
+}
+
+/* Info */
+.urja-product-5 .product-info {
+    padding: 18px;
+    text-align: center;
+}
+
+.urja-product-5 .product-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.urja-product-5 .product-info a {
+    text-decoration: none;
+}
+
+
+
+
+.urjs-steel-product .urjs-tab {
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: #f1f1f1;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.urjs-steel-product .urjs-tab:hover {
+    background: #006646;
+    color: #fff;
+}
+
+.urjs-steel-product .urjs-tab.active {
+    background: #006646;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1199px) {
+          .navbar .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar .navbar-nav .nav-link {
+        padding: 10px 10px;
+    }
+}
+/* Desktop hover dropdown */
+/* @media (min-width: 991px) {
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .dropdown .dropdown-menu {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+
+} */
+
+/* Optional arrow rotate on hover */
+.dropdown:hover .fa-angle-down{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+/* Tablet */
+@media (max-width: 992px) {
+    .urja-sub-comp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* Mobile */
+@media (max-width: 576px) {
+   
+}
+  /* Tablet */
+@media (max-width: 992px) {
+      .product-grid {
+          grid-template-columns: repeat(2, 1fr);
+      }
+      .navbar .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar .navbar-nav .nav-link {
+        padding: 10px 10px;
+    }
+    .new-header-dd {
+    display: block ;
+    align-items: start;
+}
+    [data-mobile-nav-style=full-screen-menu] .navbar-full-screen-menu-inner .navbar-nav .nav-item.active .nav-link {
+        opacity: 1 !important;
+        color: var(--white);
+    }
+}
+@media (max-width:767px){
+    footer .footer-logo img{
+        max-height: auto !important;
+    }
+    .pages-inner-heading {
+    font-size: 28px !important;
+    letter-spacing: 1px !important;
+    line-height: 40px ;
+   }
+
+  .about-banner {
+      background-image: url('../images/urja/banner/about-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 275px;
+  }
+
+  .product-banner {
+      background-image: url('../images/urja/banner/product-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 275px;
+  }
+
+   .contact-banner {
+      background-image: url('../images/urja/banner/contact-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 275px;
+  }
+  .career-banner {
+      background-image: url('../images/urja/banner/career-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 275px;
+  }
+}
+  /* Mobile */
+@media (max-width: 576px) {
+     .urja-sub-comp {
+        grid-template-columns: 1fr;
+    }
+      .product-grid {
+          grid-template-columns: 1fr;
+      }
+      .urja-contact-box{
+        padding: 15px;
+      }
+      .urja-text {
+    background: linear-gradient(70deg, #172c6d, #006646);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0px !important;
+}
+.urja-contact{
+    padding: 50px 0px;
+}
+.urja-contact h2{
+    font-size: 30px;
+}
+.feature-box-content p {
+    font-size: 15px;
+    line-height: 20px;
+}
+#about{
+    margin-top: 1rem;
+}
+.about-banner {
+      background-image: url('../images/urja/banner/about-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+  }
+
+  .product-banner {
+      background-image: url('../images/urja/banner/product-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+  }
+    .hr-banner {
+      background-image: url('../images/urja/banner/product-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+  }
+   .bright-banner {
+      background-image: url('../images/urja/banner/bright-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+  }
+   .pipes-banner {
+      background-image: url('../images/urja/banner/pipes-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+  }
+   .round-banner {
+      background-image: url('../images/urja/banner/round-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+  }
+    .steel-banner {
+      background-image: url('../images/urja/banner/billets-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+  }
+
+}
