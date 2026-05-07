@@ -328,7 +328,7 @@
 			
 				$headers = "Content-Type: text/html; charset=UTF-8\r\n";
 				$headers .= 'From: '.trim(WEBSITE_NAME). '<'.FROM_MAIL.'>'."\r\n";
-				 $subject = 'New contact form has been recived from'.WEBSITE_NAME;
+				 $subject = 'New contact form has been recived from '.WEBSITE_NAME.'. date - '.date('d-m-Y');
 				$headers .= 'Cc: manjit@rtpltech.com' . "\r\n"; 
 				mail($recipient, $subject, $message, $headers); 
 				
