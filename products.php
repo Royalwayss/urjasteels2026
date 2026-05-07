@@ -158,11 +158,11 @@
             <div class="product-img">
                 <img src="images/urja/steel-billets.jpg" alt="Steel Billets">
                 <div class="overlay">
-                    <a href="steel-billets.php" class="view-btn">View Product</a>
+                    <a href="steel-billets-manufacturers" class="view-btn">View Product</a>
                 </div>
             </div>
             <div class="product-info">
-                <a href="steel-billets.php">
+                <a href="steel-billets-manufacturers">
                     <h5 class="product-title">Steel Billets</h5>
                 </a>
             </div>

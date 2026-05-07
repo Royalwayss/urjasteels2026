@@ -412,7 +412,7 @@ a{
     <div class="header">
       <img src="https://www.urjasteels.com/images/urja/urja-logo.png" alt="Urja Steels Logo">
       <p style="color:#d9a51c; margin-top: 10px; font-size: 14px; letter-spacing: 1px;">
-        <a href="https://www.urjasteels.com/round-bars-manufacturer-india">ROUND BARS</a>  <a href="https://www.urjasteels.com/bright-bars-manufacturer-india">BRIGHT BARS</a>  <a href="https://www.urjasteels.com/hot-rolled-coils">HR COIL</a>  <a href="https://www.urjasteels.com/steel-pipes-and-honed-tubes">PIPES</a>  <a href="https://www.urjasteels.com/steel-billets.php">BILLETS</a> 
+        <a href="https://www.urjasteels.com/round-bars-manufacturer-india">ROUND BARS</a>  <a href="https://www.urjasteels.com/bright-bars-manufacturer-india">BRIGHT BARS</a>  <a href="https://www.urjasteels.com/hot-rolled-coils">HR COIL</a>  <a href="https://www.urjasteels.com/steel-pipes-and-honed-tubes">PIPES</a>  <a href="https://www.urjasteels.com/steel-billets-manufacturers">BILLETS</a> 
       </p>
     </div>
 

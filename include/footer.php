@@ -65,7 +65,7 @@
                         <li><a href="round-bars-manufacturer-india" class="">Round Bars</a></li>
                         <li><a href="steel-pipes-and-honed-tubes" class="">Pipes</a></li>
                         <li><a href="bright-bars-manufacturer-india" class="">Bright Bars</a></li>
-                        <li><a href="steel-billets.php" class="">Steel Billets</a></li>
+                        <li><a href="steel-billets-manufacturers" class="">Steel Billets</a></li>
 
                     </ul>
                 </div>

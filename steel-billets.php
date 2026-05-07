@@ -84,7 +84,7 @@
                 <a href="round-bars-manufacturer-india" class="urjs-tab ">Round Bars</a>
                 <a href="steel-pipes-and-honed-tubes" class="urjs-tab">Pipes</a>
                 <a href="bright-bars-manufacturer-india" class="urjs-tab ">Bright Bars</a>
-                <a href="steel-billets.php" class="urjs-tab active">Steel Billets</a>
+                <a href="steel-billets-manufacturers" class="urjs-tab active">Steel Billets</a>
             </div>
         </div>
         <div class="row g-4">

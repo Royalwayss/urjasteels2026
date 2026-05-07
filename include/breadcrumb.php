@@ -23,7 +23,7 @@
       <a href="steel-products-manufacturer">Products</a>
       <span>></span>
       <span>Bright Bars</span>  
-      <?php }else if($pageName == 'steel-billets.php'){ ?>
+      <?php }else if($pageName == 'steel-billets-manufacturers.php'){ ?>
       <a href="steel-products-manufacturer">Products</a>
       <span>></span>
       <span>Steel Billets</span> 
