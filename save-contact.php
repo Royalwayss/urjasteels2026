@@ -39,6 +39,27 @@
 		$email  = '';
 	}
 	
+	if(isset($data['company']) && $data['company'] != ''){
+		$company = $data['company'];
+	}else{
+		$company ='';
+		$err = 1; 	
+	} 
+	
+	if(isset($data['whatsapp_mobile']) && $data['whatsapp_mobile'] != ''){
+		$whatsapp_mobile = $data['whatsapp_mobile'];
+	}else{
+		$whatsapp_mobile ='';
+		
+	}
+	
+	if(isset($data['product']) && $data['product'] != ''){
+		$product = $data['product'];
+	}else{
+		$product ='';
+		$err = 1; 	
+	}
+	
 	if(isset($data['message']) && $data['message'] != ''){
 		$message = $data['message'];
 	}else{
@@ -46,17 +67,45 @@
 		$err = 1; 	
 	}
 	
+   if(isset($data['city']) && $data['city'] != ''){
+		$city = $data['city'];
+	}else{
+		$city ='';
+			
+	}
+	
+	 if(isset($data['state']) && $data['state'] != ''){
+		$state = $data['state'];
+	}else{
+		$state ='';
+			
+	}
 
+ if(isset($data['country']) && $data['country'] != ''){
+		$country = $data['country'];
+	}else{
+		$country ='';
+		$err = 1; 	
+	}
+
+
+
+if(isset($data['quantity']) && $data['quantity'] != ''){
+		$quantity = $data['quantity'];
+	}else{
+		$quantity ='';
+		$err = 1; 	
+	}
 	
 	if( $err == '' ) {
 		
 		
 		
 		
-		 /*
+		 
 		if($_SERVER['HTTP_HOST'] != 'localhost'){
 			
-					$recaptcha_secret = RECAPTCHA_SECRET_KEY;
+					$recaptcha_secret = RECAPTCHA_SECRET_KEY; 
 					$recaptcha_response = $_POST['g-recaptcha-response'];
 
 					$recaptcha_api_url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -82,7 +131,7 @@
 					  echo '{ "alert": "alert alert-danger alert-dismissable", "message": "Your message could not been sent!" }'; die;
 					} 
 			   
-   } */ 
+   } 
 		
 		
 		
@@ -145,9 +194,11 @@
 		$message = mysqli_real_escape_string($conn, $message);
 		
 		
-		$sql = "INSERT INTO contacts (first_name,last_name,email,mobile,message) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$message."')";
+		$sql = "INSERT INTO contacts (first_name,last_name,email,mobile,whatsapp_mobile,product,company,state,city,country,quantity,message) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$whatsapp_mobile."','".$product."','".$company."','".$state."','".$city."','".$country."','".$quantity."','".$message."')";
 		mysqli_query($conn,$sql);
 						
+				/*
+				
 				$mail_message = 
 				'<!DOCTYPE html>
 				<html>
@@ -254,7 +305,179 @@
 				   </body>
 				</html>
 				';
+				*/
 				
+				
+				
+				 $mail_message = '<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Enquiry Notification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333333;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      background-color: #1c2b4a;
+      text-align: center;
+      padding: 20px;
+    }
+    .header img {
+      max-height: 50px;
+    }
+    .sub-header {
+      background-color: #d9a51c;
+      color: #1c2b4a;
+      font-weight: bold;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .content p {
+      margin: 10px 0;
+    }
+    .enquiry-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    .enquiry-table td {
+      padding: 8px 5px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .enquiry-table td.label {
+      font-weight: bold;
+      width: 40%;
+    }
+    .product-interest {
+      display: inline-block;
+      background-color: #e0e7ff;
+      color: #1c2b4a;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .footer {
+      background-color: #f4f4f4;
+      color: #777777;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+    }
+    
+    
+    
+a{
+    color: #d9a51c;
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+     text-decoration:none !important;
+}
+    
+  a:hover{
+    color: #d9a51c;
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration:none !important;
+}  
+    
+    
+    
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    
+    <!-- Header -->
+    <div class="header">
+      <img src="https://www.urjasteels.com/images/urja/urja-logo.png" alt="Urja Steels Logo">
+      <p style="color:#d9a51c; margin-top: 10px; font-size: 14px; letter-spacing: 1px;">
+        <a href="https://www.urjasteels.com/round-bars-manufacturer-india">ROUND BARS</a>  <a href="https://www.urjasteels.com/bright-bars-manufacturer-india">BRIGHT BARS</a>  <a href="https://www.urjasteels.com/hot-rolled-coils">HR COIL</a>  <a href="https://www.urjasteels.com/steel-pipes-and-honed-tubes">PIPES</a>  <a href="https://www.urjasteels.com/steel-billets.php">BILLETS</a> 
+      </p>
+    </div>
+
+    <!-- Sub-header / Alert -->
+    <div class="sub-header">
+      ⚡ NEW ENQUIRY RECEIVED — ACTION REQUIRED
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <p>Hello Team,</p>
+      <p>A new enquiry has been submitted via the Urja Steels website contact form.</p>
+      <p style="font-size:12px; color:#555555;">
+        Received: '.date('Y-m-d H:i:s').' | Source: <a href="https://urjasteels.com/contact-us" style="color:#1c2b4a; text-decoration:none;">urjasteels.com/contact-us</a>
+      </p>
+
+      <div class="product-interest">
+        📦 PRODUCT INTEREST: '.$product.'
+      </div>
+
+      <table class="enquiry-table">
+        <tr>
+          <td class="label">Full Name</td>
+          <td>'.$first_name.' '.$last_name.'</td>
+        </tr>
+        <tr>
+          <td class="label">Company Name</td>
+          <td>'.$company.'</td>
+        </tr>
+        <tr>
+          <td class="label">Mobile</td>
+          <td>'.$mobile.'</td>
+        </tr>
+        <tr>
+          <td class="label">WhatsApp</td>
+          <td>'.$whatsapp_mobile.'</td>
+        </tr>
+        <tr>
+          <td class="label">Email</td>
+          <td>'.$email.'</td>
+        </tr>
+        <tr>
+          <td class="label">City / State</td>
+          <td>'.$city.' '.$state.'</td>
+        </tr>
+		<tr>
+          <td class="label">Country</td>
+          <td>'.$country.'</td>
+        </tr>
+        <tr>
+          <td class="label">Quantity Required</td>
+          <td>'.$quantity.'</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      &copy; '.date('Y').' Urja Steels. All rights reserved.
+    </div>
+
+  </div>
+</body>
+</html>';
+               
 				
 				
 				if($_SERVER['HTTP_HOST'] != 'localhost'){
@@ -265,8 +488,9 @@
 			
 				$headers = "Content-Type: text/html; charset=UTF-8\r\n";
 				$headers .= 'From: '.trim(WEBSITE_NAME). '<'.FROM_MAIL.'>'."\r\n";
-				 $subject = 'New contact form has been recived from'.WEBSITE_NAME;
-				$headers .= 'Cc: manjit@rtpltech.com' . "\r\n"; 
+				 $subject = 'New contact form has been recived from'.WEBSITE_NAME.' date - '.date('d-m-Y');
+				//$headers .= 'Cc: manjit@rtpltech.com' . "\r\n"; 
+				$headers .= 'Cc: rwpttech@gmail.com' . "\r\n"; 
 				mail($recipient, $subject, $message, $headers); 
 				
 				

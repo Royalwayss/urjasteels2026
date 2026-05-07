@@ -167,6 +167,13 @@
     }
 
 }
+
+
+.urja-contact-form select {
+    border-radius: 0;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
 </style>
 
 <!-- start page title -->
@@ -431,10 +438,71 @@
 
                         <input type="email" name="email" class="form-control" placeholder="E-mail*">
 						
-                        <input type="number" name="mobile" class="form-control" placeholder="Mobile*">
+                        <input type="number" name="mobile" id="mobile_number" class="form-control" placeholder="Mobile*">
+						
+                        <input type="number" name="whatsapp_mobile" id="whatsapp_mobile_number" class="form-control" placeholder="WhatsApp Number*">
+                        <input type="checkbox" id="same_as_mobile" style="width:100px" placeholder="WhatsApp Number*"><span style="color:#fff">Same as Mobile</span>
+						
+                        <input type="text" name="company" class="form-control" placeholder="Company Name">
+						
+                        <input type="text" name="city" class="form-control" placeholder="City">
+                        <input type="text" name="state" class="form-control" placeholder="State">
+						
+						
+						<?php
+						$countries = [
+							"Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria",
+							"Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan",
+							"Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia",
+							"Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo (Congo-Brazzaville)", "Costa Rica",
+							"Croatia", "Cuba", "Cyprus", "Czechia (Czech Republic)", "Democratic Republic of the Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador",
+							"Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France",
+							"Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau",
+							"Guyana", "Haiti", "Holy See", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq",
+							"Ireland", "Israel", "Italy", "Ivory Coast", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati",
+							"Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania",
+							"Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius",
+							"Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar (formerly Burma)", "Namibia",
+							"Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway",
+							"Oman", "Pakistan", "Palau", "Palestine State", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland",
+							"Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino",
+							"Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands",
+							"Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland",
+							"Syria", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey",
+							"Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Uzbekistan", "Vanuatu",
+							"Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
+						];
 
-                        <textarea rows="5" name="message" class="form-control" placeholder="Message*"></textarea>
+						?>
+						
+						
+						<select name="country" class="form-control">
+							<option value="" disabled> Select Country*</option>
+							<?php foreach($countries as $country) { ?>
+							<option option="<?php echo $country; ?>" <?php if($country == 'India'){ echo 'selected'; } ?>><?php echo $country; ?></option>
+							<?php } ?>
+						</select>
+						<?php $products = ['Round Bars', 'Bright Bars', 'HR Coil', 'Pipes', 'Steel Billets', 'Others']; ?>
+						<select name="product" class="form-control">
+							<option value=""> Select Product*</option>
+							<?php foreach($products as $product) { ?>
+							<option option="<?php echo $product; ?>"><?php echo $product; ?></option>
+							<?php } ?>
+						</select>
+						
+					  <input type="number" name="quantity" class="form-control" placeholder="Approximate Quantity*" min="1">
+
+
+						
+                        <textarea rows="5" name="message" class="form-control" placeholder="Message / Requirement*"></textarea>
                         <br>
+						
+						 <div class="col-md-12 contact-input mb-3 pl-0">
+
+							   <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpired"></div>
+							   <input id="hidden-grecaptcha" name="hidden-grecaptcha" type="hidden"/>
+			              </div>
+						<br>
                         <button class="urja-submit mt-2">SUBMIT</button>
                         <div class="form-results mt-2"></div>
                     </form>
@@ -452,8 +520,9 @@
 
 <?php include 'include/footer.php'; ?>
 
-
 <script src="js/jquery.validate.min.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
 $(function () {
@@ -475,8 +544,21 @@ $(function () {
 			   minlength: 8,
 			   maxlength:15,
             },
+			country: {
+                required: true,
+            },
+			product: {
+                required: true,
+            },
+			
+			quantity: {
+                required: true,
+            },
             message: {
                 required: true,
+            },
+			"hidden-grecaptcha": {
+              required: true,
             },
 			
         },
@@ -492,9 +574,21 @@ $(function () {
 				  required: "Enter a valid mobile number",
 				  minlength: "Mobile number must be at least 8 digits.",
 			},
+			 country: {
+                required: "Please select your country",
+            },
+			 product: {
+                required: "Please select the product",
+            },
+			 quantity: {
+                required: "Please select your quantity",
+            },
 			message: {
                 required: "Please enter message",
             },
+			"hidden-grecaptcha": {
+				required: "reCAPTCHA is mandatory."
+			}
 			
             
         },
@@ -531,4 +625,35 @@ $(function () {
 });
 
 
+function recaptchaCallback() {
+	    var response = grecaptcha.getResponse(),
+		$button = jQuery(".document-btn");
+		jQuery("#hidden-grecaptcha").val(response);
+}
+
+
+
 </script>
+
+ <script>
+    $(document).ready(function() {
+      $('#same_as_mobile').change(function() {
+			if ($(this).is(':checked')) {
+					$('#whatsapp_mobile_number').val($('#mobile_number').val());
+			} 
+      });
+	  
+	  
+	  $('#mobile_number').keyup(function() { 
+			
+			if ($("#same_as_mobile").prop('checked')) { 
+					$('#whatsapp_mobile_number').val($('#mobile_number').val());
+			} 
+      });
+	  
+	  
+	  
+	  
+	  
+    });
+  </script>

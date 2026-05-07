@@ -98,17 +98,17 @@
                               </a>
                               <!-- Dropdown -->
                               <ul class="dropdown-menu urja-subdropdown" aria-labelledby="navbarDropdownMenuLink">
-                                 <li><a href="https://naraingroup.com/narain-co/">Narain & Co.</a></li>
-                                 <li><a href="https://naraingroup.com/r-p-multimetals-ltd/">R.P Multimetals Ltd.</a>
+                                 <li><a rel="nofollow" href="https://naraingroup.com/narain-co/">Narain & Co.</a></li>
+                                 <li><a rel="nofollow" href="https://naraingroup.com/r-p-multimetals-ltd/">R.P Multimetals Ltd.</a>
                                  </li>
-                                 <li><a href="https://naraingroup.com/r-p-concast/">R.P Concast</a></li>
-                                 <li><a href="https://naraingroup.com/r-p-alloys-forging/">R.P Alloys & Forging</a>
+                                 <li><a rel="nofollow" href="https://naraingroup.com/r-p-concast/">R.P Concast</a></li>
+                                 <li><a rel="nofollow" href="https://naraingroup.com/r-p-alloys-forging/">R.P Alloys & Forging</a>
                                  </li>
-                                 <li><a href="https://naraingroup.com/r-p-multimetals-zinc-division/">R.P Multimetals
+                                 <li><a rel="nofollow" href="https://naraingroup.com/r-p-multimetals-zinc-division/">R.P Multimetals
                                     Zinc Division</a>
                                  </li>
-                                 <li><a href="https://rpengg.in/">RP Engineering</a></li>
-                                 <li><a href="https://naraingroup.com/gold-homes/">Gold Homes</a></li>
+                                 <li><a rel="nofollow" href="https://rpengg.in/">RP Engineering</a></li>
+                                 <li><a rel="nofollow" href="https://naraingroup.com/gold-homes/">Gold Homes</a></li>
                               </ul>
                            </div>
                         </li>

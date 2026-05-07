@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-  
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- <script>
 function revealElements() {
     const reveals = document.querySelectorAll('.reveal-left, .reveal-right');

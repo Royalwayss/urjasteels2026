@@ -52,7 +52,7 @@
 <title>Infrastructure & Manufacturing Capabilities - Urja Steels India</title>
 <meta name="description" content="Explore Urja Steels state-of-the-art manufacturing infrastructure. Our advanced facilities ensure precision, quality control & large-scale production of bright bars, round bars & steel products across India.">
 <meta name="keywords" content="our infrastructure, urja steels">
-<?php }else if($pageName == 'jobs-and-jobs-and-career'){ ?>
+<?php }else if($pageName == 'jobs-and-career.php'){ ?>
 <title>Careers at Urja Steels - Join India's Growing Steel Manufacturing Company</title>
 <meta name="description" content="Join the Urja Steels team - one of India's trusted steel manufacturers in Punjab. We offer exciting career opportunities in manufacturing, sales, quality & operations. Apply now and grow with us.">
 <meta name="keywords" content="steel company jobs india, steel manufacturing careers punjab, jobs in steel industry ludhiana, urja steels careers">
