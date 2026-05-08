@@ -92,7 +92,7 @@
                                 9700800019</a></li>
 
                     </ul>
-                    <div class="d-inline-block w-100 newsletter-style-02 position-relative mb-10px">
+                   <?php /* <div class="d-inline-block w-100 newsletter-style-02 position-relative mb-10px">
                         <form action="email-templates/subscribe-newsletter.php" method="post"
                             class="position-relative w-100">
                             <input class="input-small border-color-extra-medium-gray w-100 form-control required"
@@ -104,7 +104,7 @@
                                 class="form-results border-radius-4px pt-5px pb-5px ps-15px pe-15px fs-14 lh-22 mt-10px w-100 text-center position-absolute d-none">
                             </div>
                         </form>
-                    </div>
+                    </div> */ ?>
                     <!-- <div class="d-flex align-items-center">
                         <div class="d-inline-block fs-15 text-white">
                             <i
@@ -122,11 +122,11 @@
                 </div> -->
                 <!-- end divider -->
                 <!-- start copyright -->
-                <div
+               <?php /* <div
                     class="col-lg-12 m-auto pt-0 fs-15  text-center text-lg-center last-paragraph-no-margin text-white">
                     <p>© 2026 Urja steels is Design by <a href="https://www.royalways.com/" target="_blank"
                             class="text-dark-gray fw-500 text-decoration-line-bottom text-white">Royalways</a></p>
-                </div>
+                </div> */ ?>
                 <!-- end copyright -->
                 <!-- start footer menu -->
                 <!-- <div class="col-lg-7 pt-15px pb-15px md-pb-5px fs-15 order-1 order-lg-2 text-center text-lg-end">
