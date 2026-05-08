@@ -122,11 +122,11 @@
                 </div> -->
                 <!-- end divider -->
                 <!-- start copyright -->
-               <?php /* <div
+                <div
                     class="col-lg-12 m-auto pt-0 fs-15  text-center text-lg-center last-paragraph-no-margin text-white">
-                    <p>© 2026 Urja steels is Design by <a href="https://www.royalways.com/" target="_blank"
+                    <p>© 2026 Urja steels Design by <a href="https://www.royalways.com/" target="_blank"
                             class="text-dark-gray fw-500 text-decoration-line-bottom text-white">Royalways</a></p>
-                </div> */ ?>
+                </div> 
                 <!-- end copyright -->
                 <!-- start footer menu -->
                 <!-- <div class="col-lg-7 pt-15px pb-15px md-pb-5px fs-15 order-1 order-lg-2 text-center text-lg-end">
