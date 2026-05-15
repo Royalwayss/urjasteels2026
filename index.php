@@ -1,5 +1,15 @@
 ﻿<?php include 'include/header.php'; ?>
-
+<style>
+.feature-list li::before {
+    content: "✓"!important;
+    color: #006646!important;
+    font-weight: bold!important;
+    margin-right: 10px!important;
+}
+#footer-content a {
+	color:#172c6d !important; 
+}
+</style>
 <section class="p-0 top-space-margin">
     <div class="swiper h-600px md-h-600px sm-h-500px swiper-number-pagination-style-01 magic-cursor drag-cursor"
         data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-number", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 4000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'
@@ -694,6 +704,54 @@
                         </ul>
                     </div> -->
         </div>
+    </div>
+</section>
+
+<section class="overflow-hidden urja-web-space pb-0" id="footer-content">
+    <div class="container">
+        <div class="row align-items-center mb-6 sm-mb-50px">
+            
+            <div class="col-xl-12 col-lg-12 col-md-12 text-center text-md-start">
+                
+               
+			   <p class="fs-18 lh-32">Steel doesn&rsquo;t just support industry &ndash; it defines how efficiently it performs. At <strong>Urja Steels</strong>, we focus on delivering <a href="steel-products-manufacturer">high-quality steel products in India</a> that combine precision, durability, and dependable supply for modern manufacturing and infrastructure needs.</p>
+<p class="fs-18 lh-32">From <a href="round-bars-manufacturer-india">round bars<a>, <a href="hot-rolled-coils">HR coil</a>, pipes, steel billets, peeled ground bars&nbsp;</strong>to <strong>bright bars</strong>, our product portfolio is built to support industries that demand consistency in machining, fabrication, hydraulic systems, automotive components and heavy engineering.</p>
+<p class="fs-18 lh-32"><strong>Precision Steel Solutions for Modern Manufacturing</strong></p>
+<p class="fs-18 lh-32">Our advanced processing capabilities help us serve industries where accuracy and surface finish matter.</p>
+<ul class="feature-list small">
+    <li>As trusted <strong>peeled ground bar manufacturers and suppliers in India</strong>, we supply <a href="round-bars-manufacturer-india">polished steel round bars in India</a> and <strong>peeled ground bars&nbsp;</strong>products for precision machining applications.</li>
+    <li>We are also recognised as a reliable <strong>ground bar manufacturer in India</strong>, delivering <strong>precision ground round bar&nbsp;</strong>solutions and <strong>hardened and ground steel shafts</strong> for engineering industries.</li>
+    <li>Our expertise includes <strong>induction hardened steel rod supplies</strong> and <strong>heat-treated steel bar&nbsp;</strong>products designed for high-performance applications.</li>
+</ul>
+<p class="fs-18 lh-32">For hydraulic and pneumatic industries, we manufacture <strong>hard chrome plated bars in India</strong>, including <strong>hardened chrome plated rods</strong>, <strong>hard chrome plated hollow bars</strong>, and <strong>chrome plated honed tubes for hydraulics</strong>. Our growing reputation as a <strong>honed tubes manufacturer in India</strong> and <strong>precision honed tube suppliers in Punjab</strong> reflects our focus on quality and dimensional accuracy.</p>
+<p class="fs-18 lh-32"><strong>A Complete Industrial Steel Product Portfolio</strong></p>
+<p class="fs-18 lh-32">Urja Steels offers a diversified range of steel products to support multiple sectors and applications:</p>
+<ul class="feature-list small">
+    <li><a href="round-bars-manufacturer-india">Round Bars<a>: EN8, alloy steel, hot rolled, and high tensile grades</li>
+    <li><a href="bright-bars-manufacturer-india">Bright Bars:</a> Carbon steel bright drawn bars, precision ground bright bars and cold drawn solutions</li>
+    <li><a href="hot-rolled-coils">HR Coils</a>: Structural and industrial-grade hot rolled coils for fabrication and manufacturing</li>
+    <li><a href="steel-pipes-and-honed-tubes">Pipes &amp; Tubes</a>: Industrial steel pipes, chrome plated bars and tubes, solutions and hydraulic applications</li>
+    <li><a href="steel-billets-manufacturers">Steel Billets:</a> Reliable raw material support for rolling mills and forging industries</li>
+    <li><strong>Square &amp; Hex Bars:&nbsp;</strong>Trusted <strong>square bars manufacturers</strong> and <strong>hexagonal bars manufacturers in India</strong></li>
+</ul>
+<p class="fs-18 lh-32">We also support custom manufacturing requirements as <strong>custom length steel bar exporters</strong>, supplying tailored solutions for OEMs and industrial buyers.</p>
+<p class="fs-18 lh-32"><strong>Built for Industry. Trusted Across Markets.</strong></p>
+<p class="fs-18 lh-32">As dependable <a href="round-bars-manufacturer-india">round bars suppliers in India</a> and growing <a href="bright-bars-manufacturer-india">bright bars exporters in India</a>, we continue expanding our reach across domestic and international markets. Our materials are widely used by:</p>
+<ul class="feature-list small">
+    <li>Automotive and precision engineering companies</li>
+    <li>Hydraulic and pneumatic equipment manufacturers</li>
+    <li>Construction and infrastructure industries</li>
+    <li>OEMs and industrial fabricators</li>
+</ul>
+<p class="fs-18 lh-32">With a commitment to metallurgy, precision processing, and reliable delivery, Urja Steels is steadily building its position as a trusted <strong>steel supplier for European markets</strong> and global industrial applications.</p>
+<p class="fs-18 lh-32">At Urja Steels, we don&rsquo;t just supply steel - we deliver materials engineered to help industries build stronger, machine better and perform longer.</p>
+			   
+			   
+            </div>
+            
+        </div>
+
+
     </div>
 </section>
 
