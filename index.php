@@ -1,13 +1,20 @@
 ﻿<?php include 'include/header.php'; ?>
 <style>
 .feature-list li::before {
-    content: "✓"!important;
-    color: #006646!important;
-    font-weight: bold!important;
-    margin-right: 10px!important;
+    content: "✓" !important;
+    color: #006646 !important;
+    font-weight: bold !important;
+    margin-right: 5px !important;
+    
+}
+.feature-list li{
+    font-size:16px !important;
+}
+.feature-list {
+padding-left: 10px !important;
 }
 #footer-content a {
-	color:#172c6d !important; 
+    color: #172c6d !important;
 }
 </style>
 <section class="p-0 top-space-margin">
@@ -233,13 +240,13 @@
                     opportunities while we strategically work to enhance & expand our presence in the steel sector. The
                     journey has been long and we are proud to say that we have worked hard with complete diligence and
                     honesty to earn our position and reputation as one of the leading steel companies in the nation!</p>
-                      <a href="about-us" class="urja-read-btn">
+                <a href="about-us" class="urja-read-btn">
                     Read More
                 </a>
             </div>
             <div class="col-xl-3 col-lg-3 offset-xl-1 last-paragraph-no-margin">
                 <div class="row align-items-center">
-                     
+
 
                 </div>
             </div>
@@ -262,7 +269,8 @@
                     <div class="feature-box-content">
                         <span class="fs-18 w-100 sm-w-90 d-block">
                             <span class="fw-700 text-white ls-minus-1px">Mission :</span>
-                            <span class="fs-18 text-white">Deliver high-quality steel with reliability and growth. </span>
+                            <span class="fs-18 text-white">Deliver high-quality steel with reliability and growth.
+                            </span>
                         </span>
                     </div>
                 </div>
@@ -327,7 +335,8 @@
                                 <div class="category-title absolute-middle-left">
                                     <h3 class="text-white alt-font fw-600 mb-0 text-shadow-large">HR Coil</h3>
                                 </div>
-                                <div class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
+                                <div
+                                    class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
                                     <h3 class="title text-white alt-font fw-600 mb-0">HR Coil</h3>
                                 </div>
                             </div>
@@ -344,7 +353,8 @@
                                 <div class="category-title absolute-middle-left">
                                     <h3 class="text-white alt-font fw-600 mb-0 text-shadow-large">Round Bars</h3>
                                 </div>
-                                <div class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
+                                <div
+                                    class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
                                     <h3 class="title text-white alt-font fw-600 mb-0">Round Bars</h3>
                                 </div>
                             </div>
@@ -361,7 +371,8 @@
                                 <div class="category-title absolute-middle-left">
                                     <h3 class="text-white alt-font fw-600 mb-0 text-shadow-large">Bright Bars</h3>
                                 </div>
-                                <div class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
+                                <div
+                                    class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
                                     <h3 class="title text-white alt-font fw-600 mb-0">Bright Bars</h3>
                                 </div>
                             </div>
@@ -378,7 +389,8 @@
                                 <div class="category-title absolute-middle-left">
                                     <h3 class="text-white alt-font fw-600 mb-0 text-shadow-large">Pipes</h3>
                                 </div>
-                                <div class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
+                                <div
+                                    class="category-hover-content d-flex flex-column align-items-center justify-content-center bg-base-color-product p-40px lg-p-25px">
                                     <h3 class="title text-white alt-font fw-600 mb-0">Pipes</h3>
                                 </div>
                             </div>
@@ -461,8 +473,6 @@
         </div>
     </div>
 </section> -->
-
-
 <section class="client-map-section py-5">
     <div class="container">
 
@@ -536,9 +546,6 @@
         </div>
     </div>
 </section>
-
-
-
 <section class="urja-web-space ">
     <div class="container">
 
@@ -603,26 +610,29 @@
     </div>
 </section>
 <!-- end section -->
-
 <!-- start section -->
 <section class="big-section urja-web-space " data-parallax-background-ratio="0.5"
     style="background-image: url(images/urja/1-home-infra-bg.jpg)">
-   <div class="container">
+    <div class="container">
         <div class="row mb-1">
             <div class="col-12 col-xxl-7 col-xl-8">
-                <a href="our-infrastructure"><h2 class="text-dark-gray text-white alt-font fw-500 ls-minus-2px w-95 md-w-100"
-                    data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["Infrastructure"], "duration": 400, "delay": 0, "speed": 20, "easing": "easeOutQuad" }'>
-                </h2></a>
+                <a href="our-infrastructure">
+                    <h2 class="text-dark-gray text-white alt-font fw-500 ls-minus-2px w-95 md-w-100"
+                        data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["Infrastructure"], "duration": 400, "delay": 0, "speed": 20, "easing": "easeOutQuad" }'>
+                    </h2>
+                </a>
             </div>
         </div>
         <div class="row"
             data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <div class="col-12 col-md-9 ">
-                <a href="our-infrastructure"><p class="fs-18" style="color: #fff; ">Our group of company is driven by passion, innovation, and a
-                    relentless
-                    pursuit of excellence. From humble beginnings to remarkable achievements, we have overcome
-                    challenges, embraced growth, and forged lasting connections. Today, we proudly stand as a symbol
-                    of resilience and success.</p></a>
+                <a href="our-infrastructure">
+                    <p class="fs-18" style="color: #fff; ">Our group of company is driven by passion, innovation, and a
+                        relentless
+                        pursuit of excellence. From humble beginnings to remarkable achievements, we have overcome
+                        challenges, embraced growth, and forged lasting connections. Today, we proudly stand as a symbol
+                        of resilience and success.</p>
+                </a>
             </div>
         </div>
     </div></a>
@@ -707,48 +717,88 @@
     </div>
 </section>
 
-<section class="overflow-hidden urja-web-space pb-0" id="footer-content">
+<section class="overflow-hidden urja-web-space pb-0 pt-0" id="footer-content">
     <div class="container">
         <div class="row align-items-center mb-6 sm-mb-50px">
-            
+
             <div class="col-xl-12 col-lg-12 col-md-12 text-center text-md-start">
-                
-               
-			   <p class="fs-18 lh-32">Steel doesn&rsquo;t just support industry &ndash; it defines how efficiently it performs. At <strong>Urja Steels</strong>, we focus on delivering <a href="steel-products-manufacturer">high-quality steel products in India</a> that combine precision, durability, and dependable supply for modern manufacturing and infrastructure needs.</p>
-<p class="fs-18 lh-32">From <a href="round-bars-manufacturer-india">round bars<a>, <a href="hot-rolled-coils">HR coil</a>, pipes, steel billets, peeled ground bars&nbsp;</strong>to <strong>bright bars</strong>, our product portfolio is built to support industries that demand consistency in machining, fabrication, hydraulic systems, automotive components and heavy engineering.</p>
-<p class="fs-18 lh-32"><strong>Precision Steel Solutions for Modern Manufacturing</strong></p>
-<p class="fs-18 lh-32">Our advanced processing capabilities help us serve industries where accuracy and surface finish matter.</p>
-<ul class="feature-list small">
-    <li>As trusted <strong>peeled ground bar manufacturers and suppliers in India</strong>, we supply <a href="round-bars-manufacturer-india">polished steel round bars in India</a> and <strong>peeled ground bars&nbsp;</strong>products for precision machining applications.</li>
-    <li>We are also recognised as a reliable <strong>ground bar manufacturer in India</strong>, delivering <strong>precision ground round bar&nbsp;</strong>solutions and <strong>hardened and ground steel shafts</strong> for engineering industries.</li>
-    <li>Our expertise includes <strong>induction hardened steel rod supplies</strong> and <strong>heat-treated steel bar&nbsp;</strong>products designed for high-performance applications.</li>
-</ul>
-<p class="fs-18 lh-32">For hydraulic and pneumatic industries, we manufacture <strong>hard chrome plated bars in India</strong>, including <strong>hardened chrome plated rods</strong>, <strong>hard chrome plated hollow bars</strong>, and <strong>chrome plated honed tubes for hydraulics</strong>. Our growing reputation as a <strong>honed tubes manufacturer in India</strong> and <strong>precision honed tube suppliers in Punjab</strong> reflects our focus on quality and dimensional accuracy.</p>
-<p class="fs-18 lh-32"><strong>A Complete Industrial Steel Product Portfolio</strong></p>
-<p class="fs-18 lh-32">Urja Steels offers a diversified range of steel products to support multiple sectors and applications:</p>
-<ul class="feature-list small">
-    <li><a href="round-bars-manufacturer-india">Round Bars<a>: EN8, alloy steel, hot rolled, and high tensile grades</li>
-    <li><a href="bright-bars-manufacturer-india">Bright Bars:</a> Carbon steel bright drawn bars, precision ground bright bars and cold drawn solutions</li>
-    <li><a href="hot-rolled-coils">HR Coils</a>: Structural and industrial-grade hot rolled coils for fabrication and manufacturing</li>
-    <li><a href="steel-pipes-and-honed-tubes">Pipes &amp; Tubes</a>: Industrial steel pipes, chrome plated bars and tubes, solutions and hydraulic applications</li>
-    <li><a href="steel-billets-manufacturers">Steel Billets:</a> Reliable raw material support for rolling mills and forging industries</li>
-    <li><strong>Square &amp; Hex Bars:&nbsp;</strong>Trusted <strong>square bars manufacturers</strong> and <strong>hexagonal bars manufacturers in India</strong></li>
-</ul>
-<p class="fs-18 lh-32">We also support custom manufacturing requirements as <strong>custom length steel bar exporters</strong>, supplying tailored solutions for OEMs and industrial buyers.</p>
-<p class="fs-18 lh-32"><strong>Built for Industry. Trusted Across Markets.</strong></p>
-<p class="fs-18 lh-32">As dependable <a href="round-bars-manufacturer-india">round bars suppliers in India</a> and growing <a href="bright-bars-manufacturer-india">bright bars exporters in India</a>, we continue expanding our reach across domestic and international markets. Our materials are widely used by:</p>
-<ul class="feature-list small">
-    <li>Automotive and precision engineering companies</li>
-    <li>Hydraulic and pneumatic equipment manufacturers</li>
-    <li>Construction and infrastructure industries</li>
-    <li>OEMs and industrial fabricators</li>
-</ul>
-<p class="fs-18 lh-32">With a commitment to metallurgy, precision processing, and reliable delivery, Urja Steels is steadily building its position as a trusted <strong>steel supplier for European markets</strong> and global industrial applications.</p>
-<p class="fs-18 lh-32">At Urja Steels, we don&rsquo;t just supply steel - we deliver materials engineered to help industries build stronger, machine better and perform longer.</p>
-			   
-			   
+
+
+                <p class="fs-18 lh-32">Steel doesn&rsquo;t just support industry &ndash; it defines how efficiently it
+                    performs. At <strong>Urja Steels</strong>, we focus on delivering <a
+                        href="steel-products-manufacturer">high-quality steel products in India</a> that combine
+                    precision, durability, and dependable supply for modern manufacturing and infrastructure needs.</p>
+
+                <p class="fs-18 lh-32">From <a href="round-bars-manufacturer-india">round bars<a>, <a
+                                href="hot-rolled-coils">HR coil</a>, pipes, steel billets, peeled ground
+                            bars&nbsp;</strong>to <strong>bright bars</strong>, our product portfolio is built to
+                            support industries that demand consistency in machining, fabrication, hydraulic systems,
+                            automotive components and heavy engineering.</p>
+
+                <p class="fs-18 lh-32"><strong>Precision Steel Solutions for Modern Manufacturing</strong></p>
+
+                <p class="fs-18 lh-32">Our advanced processing capabilities help us serve industries where accuracy and
+                    surface finish matter.</p>
+
+                <ul class="feature-list ">
+                    <li>As trusted <strong>peeled ground bar manufacturers and suppliers in India</strong>, we supply <a
+                            href="round-bars-manufacturer-india">polished steel round bars in India</a> and
+                        <strong>peeled ground bars&nbsp;</strong>products for precision machining applications.
+                    </li>
+                    <li>We are also recognised as a reliable <strong>ground bar manufacturer in India</strong>,
+                        delivering <strong>precision ground round bar&nbsp;</strong>solutions and <strong>hardened and
+                            ground steel shafts</strong> for engineering industries.</li>
+                    <li>Our expertise includes <strong>induction hardened steel rod supplies</strong> and
+                        <strong>heat-treated steel bar&nbsp;</strong>products designed for high-performance
+                        applications.
+                    </li>
+                </ul>
+
+                <p class="fs-18 lh-32">For hydraulic and pneumatic industries, we manufacture <strong>hard chrome plated
+                        bars in India</strong>, including <strong>hardened chrome plated rods</strong>, <strong>hard
+                        chrome plated hollow bars</strong>, and <strong>chrome plated honed tubes for
+                        hydraulics</strong>. Our growing reputation as a <strong>honed tubes manufacturer in
+                        India</strong> and <strong>precision honed tube suppliers in Punjab</strong> reflects our focus
+                    on quality and dimensional accuracy.</p>
+                <p class="fs-18 lh-32"><strong>A Complete Industrial Steel Product Portfolio</strong></p>
+                <p class="fs-18 lh-32">Urja Steels offers a diversified range of steel products to support multiple
+                    sectors and applications:</p>
+                <ul class="feature-list ">
+                    <li><a href="round-bars-manufacturer-india">Round Bars<a>: EN8, alloy steel, hot rolled, and high
+                                tensile grades</li>
+                    <li><a href="bright-bars-manufacturer-india">Bright Bars:</a> Carbon steel bright drawn bars,
+                        precision ground bright bars and cold drawn solutions</li>
+                    <li><a href="hot-rolled-coils">HR Coils</a>: Structural and industrial-grade hot rolled coils for
+                        fabrication and manufacturing</li>
+                    <li><a href="steel-pipes-and-honed-tubes">Pipes &amp; Tubes</a>: Industrial steel pipes, chrome
+                        plated bars and tubes, solutions and hydraulic applications</li>
+                    <li><a href="steel-billets-manufacturers">Steel Billets:</a> Reliable raw material support for
+                        rolling mills and forging industries</li>
+                    <li><strong>Square &amp; Hex Bars:&nbsp;</strong>Trusted <strong>square bars manufacturers</strong>
+                        and <strong>hexagonal bars manufacturers in India</strong></li>
+                </ul>
+                <p class="fs-18 lh-32">We also support custom manufacturing requirements as <strong>custom length steel
+                        bar exporters</strong>, supplying tailored solutions for OEMs and industrial buyers.</p>
+                <p class="fs-18 lh-32"><strong>Built for Industry. Trusted Across Markets.</strong></p>
+                <p class="fs-18 lh-32">As dependable <a href="round-bars-manufacturer-india">round bars suppliers in
+                        India</a> and growing <a href="bright-bars-manufacturer-india">bright bars exporters in
+                        India</a>, we continue expanding our reach across domestic and international markets. Our
+                    materials are widely used by:</p>
+                <ul class="feature-list ">
+                    <li>Automotive and precision engineering companies</li>
+                    <li>Hydraulic and pneumatic equipment manufacturers</li>
+                    <li>Construction and infrastructure industries</li>
+                    <li>OEMs and industrial fabricators</li>
+                </ul>
+                <p class="fs-18 lh-32">With a commitment to metallurgy, precision processing, and reliable delivery,
+                    Urja Steels is steadily building its position as a trusted <strong>steel supplier for European
+                        markets</strong> and global industrial applications.</p>
+                <p class="fs-18 lh-32">At Urja Steels, we don&rsquo;t just supply steel - we deliver materials
+                    engineered to help industries build stronger, machine better and perform longer.</p>
+
+
             </div>
-            
+
         </div>
 
 
