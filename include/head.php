@@ -2,19 +2,16 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E354DDPXB8"></script>
 <script>
-   window.dataLayer = window.dataLayer || [];
-   
-   function gtag(){dataLayer.push(arguments);}
-   
-   gtag('js', new Date());
-   
-   
-   
-   gtag('config', 'G-E354DDPXB8');
-   
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-E354DDPXB8');
 </script>
 <meta charset="utf-8">
-<meta property="og:site_name" content="Urja Steels"/>
+<meta property="og:site_name" content="Urja Steels" />
 <link rel="icon" href="images/urja/favicon.ico" type="image/x-icon">
 <?php if($pageName == 'index.php'){ ?>
 <title>Bright Bars - Peeled Bar, Hard Chrome Plated Steel Bar, Round, Hexagonal & Sqaure Bars | High Quality Steel Products Manufacturer, Exporters & Suppliers in India</title>
@@ -60,6 +57,45 @@
 <title>Contact - Urja Steels - Round Bar & Bright Bar Manufacturer & Supplier in Punjab, India</title>
 <meta name="description" content="Get in touch with Urja Steels for bulk enquiries on round bars, bright bars, hr coils & steel billets. Located in Mandi Gobindgarh, Punjab, India. Call or email us for pricing, availability & export queries.">
 <meta name="keywords" content="round bar suppliers in india, peeled steel bar suppliers in punjab, precision honed tube suppliers punjab, bright bars suppliers in india, contact, urja steels">
+<?php }else if($pageName == 'annealed-steel-bars-manufacturer.php'){ ?>
+<title>Annealed Steel Bars Manufacturer - Annealed Round Bars, Square & Hex Bars - Annealed Steel Bars for Machining & Their Applications</title>
+
+<meta name="description" content="Urja Steels supplies annealed bars in multiple engineering steel grades such as EN8, EN9, EN19, EN24, EN31, C45, alloy steel grades & carbon steel grades suitable for industrial applications. Get a quote for soft round, hex and square annealed bars.">
+
+<meta name="keywords" content="annealed steel bars manufacturer, annealed round bars, annealed square bars, annealed hex bar">
+<?php }else if($pageName == 'cold-drawn-bright-bar-manufacturer.php'){ ?>
+<title>Cold Drawn & Bright Drawn Bars - Cold Drawn Steel Bright Bar, Round Bar and Hex Bars Manufacturer, Exporters and Suppliers in India</title>
+
+<meta name="description" content="Urja Steels is one of the best cold drawn bright bar, hex bar, round bars and carbon steel bright drawn bars manufacturer, exporters & suppliers in India. Connect with Urja Steels for precision-engineered cold drawn and bright drawn steel bars designed for CNC machining, automotive components and precision engineering applications. Request a quote now.">
+
+<meta name="keywords" content="cold drawn bars, bright drawn bars, cold drawn bars manufacturer">
+<?php }else if($pageName == 'induction-hardened-steel-bars-manufacturer.php'){ ?>
+<title>Induction Hardened Steel Bars - Induction Hardened Shaft, Round Bar, Steel Rods and Chrome Plated Bars Manufacturer, Exporters & Suppliers in India</title>
+
+<meta name="description" content="Urja Steels is one of the leading induction hardened steel rods, shaft, round bars & chrome plated bars manufacturer, exporters and suppliers in India. Connect with us for precision-engineered induction hardened steel bars designed for hydraulic systems, industrial machinery and high-performance engineering applications.">
+
+<meta name="keywords" content="induction hardened steel rod suppliers, induction hardened shaft manufacturer, induction hardened steel rod suppliers, induction hardened chrome plated bars">
+
+<?php }else if($pageName == 'hard-chrome-plated-bar-manufacturers.php'){ ?>
+<title>Hard Chrome Plated Bar Manufacturers - Hard Chrome Plated Steel Bar, Hollow Bars and Rods Manufacturers, Exporters & Suppliers in India </title>
+
+<meta name="description" content="Urja Steels is one of the leading manufacturers of high-performance hard chrome plated bars, steel bars, hollow bars in India designed for hydraulic cylinders, pneumatic systems, heavy engineering equipment and precision industrial applications.">
+
+<meta name="keywords" content="hard chrome plated bars in india, hard chrome plated steel bar india, hard chrome plated bar manufacturers, hard chrome plated rod manufacturer in india, hard chrome plated steel bar for pneumatics, hard chrome plated hollow bars">
+<?php }else if($pageName == 'peeled-ground-round-steel-bars-manufacturers.php'){ ?>
+<title>Peeled Ground Round Steel Bars - Peeled Bright Steel Rod, Peeled Steel Bar, Peeled and Polished Round Bars Manufacturer, Exporters & Suppliers in India</title>
+
+<meta name="description" content="Urja Steels is one of the leading peeled ground round steel bars, peeled bars and polished round bars in India. Get high quality peeled and ground bars in multiple engineering steel grades based on industrial requirements. Connect with Urja Steels for industrial-grade peeled bars, ground bars and peeled ground steel bars.">
+
+<meta name="keywords" content="peeled bar manufacturers suppliers in india, peeled bright steel rod in india, peeled and ground round steel , peeled bar manufacturers india, peeled ground round steel bars manufacturers, peeled steel bar suppliers in punjab">
+<?php }else if($pageName == 'honed-tubes-manufacturer.php'){ ?>
+<title>Honed Tubes Manufacturer - Chrome Plated Honed Tubes & Precision Honed Tube Suppliers in Punjab, India</title>
+
+<meta name="description" content="Urja Steels is one of the best honed tubes manufacturer in India. Get high quality chrome plated honed tubes & precision honed tube. Connect for high-performance honed tubes designed for hydraulic systems, industrial automation and precision engineering applications. Request a quote now.">
+
+<meta name="keywords" content="honed tube manufacturer, chrome plated honed tubes for hydraulics, precision honed tube suppliers">
+<?php }else if($pageName == 'testtttt.php'){ ?>
+<?php }else if($pageName == 'testtttt.php'){ ?>
 <?php }else if($pageName == 'testtttt.php'){ ?>
 <title>Urja Steel</title>
 <?php } ?>
@@ -75,55 +111,53 @@
 <link rel="stylesheet" href="css/urja.css?v=1.0" />
 <link rel="stylesheet" href="css/responsive.css" />
 <link rel="stylesheet" href="css/digital-agency/digital-agency.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-   integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-   crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <style>
-   .error{ color:red; }
+  .error {
+    color: red;
+  }
 </style>
 <?php if($pageName == 'index.php'){ ?>
 <script type="application/ld+json">
-   {
-   
-     "@context": "https://schema.org",
-   
-     "@type": "Organization",
-   
-     "@id": "https://www.urjasteels.com/#organization",
-   
-     "name": "Urja Steels",
-   
-     "url": "https://www.urjasteels.com/",
-   
-     "logo": "https://www.urjasteels.com/images/urja/urja-logo.png",
-   
-     "contactPoint": {
-   
-       "@type": "ContactPoint",
-   
-       "telephone": "+91-9700800019",
-   
-       "contactType": "customer service",
-   
-       "areaServed": "IN",
-   
-       "availableLanguage": "en"
-   
-     },
-   
-     "sameAs": [
-   
-       "https://www.facebook.com/urjasteelsofficial",
-   
-       "https://www.instagram.com/urjasteels",
-   
-       "https://www.linkedin.com/company/urjasteels"
-   
-     ]
-   
-   }
-   
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.urjasteels.com/#organization",
+    "name": "Urja Steels",
+    "url": "https://www.urjasteels.com/",
+    "logo": "https://www.urjasteels.com/images/urja/urja-logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9700800019",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": "en"
+    },
+    "sameAs": [
+      "https://www.facebook.com/urjasteelsofficial",
+      "https://www.instagram.com/urjasteels",
+      "https://www.linkedin.com/company/urjasteels"
+    ]
+  }
 </script>
 <?php } ?>
+<style>
+  .urja-contact-form select {
+    border-radius: 0;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+  }
+
+  #category_content li::before {
+    content: "✓";
+    color: #006646;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .category-dropdown-menu {
+   
+    width: auto !important;
+}
+  
+</style>

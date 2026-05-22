@@ -83,7 +83,34 @@
                                    <li><a href="https://naraingroup.com/gold-homes/">Gold Homes</a></li>
                                </ul>
                            </li> -->
-                        <li class="nav-item dropdown dropdown-with-icon-style02">
+                        
+						<li class="nav-item dropdown dropdown-with-icon-style02">
+                           <div class="new-header-dd ">
+                              <!-- Products Link -->
+                              <a href="categories" class="nav-link mb-0">Categories</a>
+                              <!-- Arrow Icon -->
+                              <a class="nav-link dropdown-toggle dropdown-toggle-split p-0 ms-2" 
+                                 href="#" 
+                                 id="navbarDropdownMenuLink" 
+                                 role="button" 
+                                 data-bs-toggle="dropdown" 
+                                 aria-expanded="false">
+                              <i class="fa-solid fa-angle-down"></i>
+                              </a>
+                              <!-- Dropdown -->
+                              <ul class="dropdown-menu category-dropdown-menu urja-subdropdown" aria-labelledby="navbarDropdownMenuLink">
+                                 <li><a class="dropdown-item" href="annealed-steel-bars-manufacturer">Annealed Steel Bars Manufacturer</a></li>
+                                 <li><a class="dropdown-item" href="cold-drawn-bright-bar-manufacturer">Cold Drawn Bright Bar Manufacturer</a></li>
+                                 <li><a class="dropdown-item" href="induction-hardened-steel-bars-manufacturer">Induction Hardened Steel Bars Manufacturer</a></li>
+                                 <li><a class="dropdown-item" href="hard-chrome-plated-bar-manufacturers">Hard Chrome Plated Bar Manufacturers</a></li>
+                                 <li><a class="dropdown-item" href="peeled-ground-round-steel-bars-manufacturers">Peeled Ground Round Steel Bars Manufacturer</a></li>
+                                 <li><a class="dropdown-item" href="honed-tubes-manufacturer">Honed Tubes Manufacturer</a></li>
+                                
+                              </ul>
+                           </div>
+                        </li>
+						
+						<li class="nav-item dropdown dropdown-with-icon-style02">
                            <div class="new-header-dd ">
                               <!-- Products Link -->
                               <a href="steel-products-manufacturer" class="nav-link mb-0">Group Companies</a>
