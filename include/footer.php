@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-3 col-lg-12 col-md-6 d-flex flex-column lg-mb-30px sm-mb-20px order-md-1 ">
-                    <a href="demo-digital-agency.html" class="footer-logo d-inline-block lg-mb-30px mb-5">
+                    <a href="<?php echo BASE_URL; ?>" class="footer-logo d-inline-block lg-mb-30px mb-5">
                         <img src="images/urja/urja-logo-white.png" data-at2x="images/urja/urja-logo-white.png" alt="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India" title="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India">
                     </a>
                     <div class="mt-5">

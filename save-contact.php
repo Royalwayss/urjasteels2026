@@ -466,6 +466,10 @@ a{
           <td class="label">Quantity Required</td>
           <td>'.$quantity.'</td>
         </tr>
+		<tr>
+          <td class="label">Message</td>
+          <td>'.$message.'</td>
+        </tr>
       </table>
     </div>
 
