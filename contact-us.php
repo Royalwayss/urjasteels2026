@@ -405,9 +405,9 @@
                         <div class="feature-box-content">
                             <span class="d-block text-white fw-600 fs-18 ls-minus-05px mb-5px">Call Us</span>
                             <div class="w-100 d-block">
-                                <span class="d-block"><a class="text-white" href="tel:+91 9700800019">+91 97008
-                                        00019</a></span>
-                                <span class="d-block"><a class="text-white" href="tel:+91 7528000019">+91 75280
+                                <span class="d-block"><a class="text-white" target="_blank" href="https://wa.me/919700800019">+91 97008
+                                        00019</a></span> 
+                                <span class="d-block"><a class="text-white" target="_blank" href="https://wa.me/917528000019">+91 75280
                                         00019</a></span>
                             </div>
                         </div>
