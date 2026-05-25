@@ -88,7 +88,7 @@
                    </li>
                         <li><i class="bi bi-envelope-fill icon-footer"></i><a href="mailto:urjasteels19@gmail.com"
                                 class="">urjasteels19@gmail.com</a></li>
-                        <li> <i class="bi bi-phone-fill icon-footer"></i><a href="tell:+91 9700800019" class="">+91
+                        <li> <i class="bi bi-phone-fill icon-footer"></i><a target="_blank" href="https://wa.me/919700800019" class="">+91
                                 9700800019</a></li>
 
                     </ul>
