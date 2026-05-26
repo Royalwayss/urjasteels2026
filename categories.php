@@ -1,6 +1,11 @@
 <?php include 'include/header.php'; ?>
 
 <style>
+  .urja-product-5 .product-card {
+   
+    margin: 14px;
+}
+  
   .category {
     width: 100% border: 1px solid #ddd;
     padding: 15px;

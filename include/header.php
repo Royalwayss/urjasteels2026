@@ -51,11 +51,20 @@
                       <li><a class="dropdown-item" href="steel-pipes-and-honed-tubes">Pipes</a></li>
                       <li><a class="dropdown-item" href="bright-bars-manufacturer-india">Bright Bars</a></li>
                       <li><a class="dropdown-item" href="steel-billets-manufacturers">Steel Billets</a></li>
+                     <?php /* <li><a class="dropdown-item" href="categories">Categories</a></li> */ ?>
+					  <li><a class="dropdown-item" href="annealed-steel-bars-manufacturer">Annealed Steel Bars Manufacturer</a></li>
+                      <li><a class="dropdown-item" href="cold-drawn-bright-bar-manufacturer">Cold Drawn Bright Bar Manufacturer</a></li>
+                      <li><a class="dropdown-item" href="induction-hardened-steel-bars-manufacturer">Induction Hardened Steel Bars Manufacturer</a></li>
+                      <li><a class="dropdown-item" href="hard-chrome-plated-bar-manufacturers">Hard Chrome Plated Bar Manufacturers</a></li>
+                      <li><a class="dropdown-item" href="peeled-ground-round-steel-bars-manufacturers">Peeled Ground Round Steel Bars Manufacturer</a></li>
+                      <li><a class="dropdown-item" href="honed-tubes-manufacturer">Honed Tubes Manufacturer</a></li>
+
                     </ul>
                   </div>
                 </li>
                 <li class="nav-item"><a href="our-infrastructure" class="nav-link">Infrastructure</a></li>
-                <li class="nav-item dropdown dropdown-with-icon-style02">
+               <?php /*
+			   <li class="nav-item dropdown dropdown-with-icon-style02">
                   <div class="new-header-dd ">
                     <!-- Products Link -->
                     <a href="categories" class="nav-link mb-0">Categories</a>
@@ -74,7 +83,7 @@
 
                     </ul>
                   </div>
-                </li>
+                </li> */ ?>
 
                 <li class="nav-item dropdown dropdown-with-icon-style02">
                   <div class="new-header-dd ">

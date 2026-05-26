@@ -159,5 +159,21 @@
    
     width: auto !important;
 }
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
+  
+     line-height: 5px!important;
+	 width: 300px !important;
+	 
+   
+}
+
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
+    
+    width: auto !important;
+}
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
+    line-height: 5px !important;
+    width: auto !important; /* 418px */
+}
   
 </style>
