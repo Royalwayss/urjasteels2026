@@ -169,11 +169,11 @@
 
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
     
-    width: auto !important;
+    width: 418px !important;
 }
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
     line-height: 5px !important;
-    width: auto !important; /* 418px */
+    width: 418px !important; 
 }
   
 </style>
