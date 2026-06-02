@@ -52,12 +52,12 @@
                       <li><a class="dropdown-item" href="bright-bars-manufacturer-india">Bright Bars</a></li>
                       <li><a class="dropdown-item" href="steel-billets-manufacturers">Steel Billets</a></li>
                      <?php /* <li><a class="dropdown-item" href="categories">Categories</a></li> */ ?>
-					  <li><a class="dropdown-item" href="annealed-steel-bars-manufacturer">Annealed Steel Bars Manufacturer</a></li>
-                      <li><a class="dropdown-item" href="cold-drawn-bright-bar-manufacturer">Cold Drawn Bright Bar Manufacturer</a></li>
-                      <li><a class="dropdown-item" href="induction-hardened-steel-bars-manufacturer">Induction Hardened Steel Bars Manufacturer</a></li>
-                      <li><a class="dropdown-item" href="hard-chrome-plated-bar-manufacturers">Hard Chrome Plated Bar Manufacturers</a></li>
-                      <li><a class="dropdown-item" href="peeled-ground-round-steel-bars-manufacturers">Peeled Ground Round Steel Bars Manufacturer</a></li>
-                      <li><a class="dropdown-item" href="honed-tubes-manufacturer">Honed Tubes Manufacturer</a></li>
+					  <li><a class="dropdown-item" href="annealed-steel-bars-manufacturer">Annealed Steel Bars</a></li>
+                      <li><a class="dropdown-item" href="cold-drawn-bright-bar-manufacturer">Cold Drawn Bright Bar</a></li>
+                      <li><a class="dropdown-item" href="induction-hardened-steel-bars-manufacturer">Induction Hardened Steel Bars</a></li>
+                      <li><a class="dropdown-item" href="hard-chrome-plated-bar-manufacturers">Hard Chrome Plated Bar</a></li>
+                      <li><a class="dropdown-item" href="peeled-ground-round-steel-bars-manufacturers">Peeled Ground Round Steel Bars</a></li>
+                      <li><a class="dropdown-item" href="honed-tubes-manufacturer">Honed Tubes</a></li>
 
                     </ul>
                   </div>
