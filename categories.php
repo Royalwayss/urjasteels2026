@@ -68,7 +68,22 @@
 
     <div class="row urja-product-5 mt-5 ">
 
-      <div class="col-12 col-md-6">
+      
+	  
+	 
+	  <div class="col-12 col-md-6">
+        <div class="product-card">
+          <div class="category">
+            <h2>Precision Hexagonal Steel Bars for Fasteners, Machining & Engineering Applications</h2>
+            <p>Urja Steels manufactures and supplies high-quality hex bars in India designed for machining, fastener manufacturing, engineering, fabrication and industrial applications. Engineered for dimensional accuracy, machining efficiency and dependable structural performance, our </p>
+            <a href=" hex-bars-manufacturer-india" class="view-button">View More</a>
+          </div>
+        </div>
+      </div>
+	  
+	  
+	  
+	  <div class="col-12 col-md-6">
         <div class="product-card">
           <div class="category">
             <h2>Precision Annealed Steel Bars for Machining & Engineering Applications</h2>

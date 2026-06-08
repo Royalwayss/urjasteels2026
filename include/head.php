@@ -94,7 +94,12 @@
 <meta name="description" content="Urja Steels is one of the best honed tubes manufacturer in India. Get high quality chrome plated honed tubes & precision honed tube. Connect for high-performance honed tubes designed for hydraulic systems, industrial automation and precision engineering applications. Request a quote now.">
 
 <meta name="keywords" content="honed tube manufacturer, chrome plated honed tubes for hydraulics, precision honed tube suppliers">
-<?php }else if($pageName == 'testtttt.php'){ ?>
+<?php }else if($pageName == 'hex-bars-manufacturer-india.php'){ ?>
+<title>Hexagonal Steel Bars Manufacturer & Supplier in India - Hex Steel Bars for Fasteners, Machining & Engineering Applications</title>
+
+<meta name="description" content="Urja Steels manufactures high-quality precision hexagonal steel bars in India for fasteners, CNC machining and engineering. Available in EN8, EN9, EN19, EN24 & C45 grades. Get a free quote for precision-engineered hexagonal steel bars.">
+
+<meta name="keywords" content="hexagonal steel bars, hex bars manufacturer India, steel bars for fasteners, cnc machining hex bars, carbon steel hex bars">
 <?php }else if($pageName == 'testtttt.php'){ ?>
 <?php }else if($pageName == 'testtttt.php'){ ?>
 <title>Urja Steel</title>
@@ -155,25 +160,22 @@
     font-weight: bold;
     margin-right: 10px;
   }
-  .category-dropdown-menu {
-   
-    width: auto !important;
-}
-.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
-  
-     line-height: 5px!important;
-	 width: 300px !important;
-	 
-   
-}
 
-.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
-    
-    width: 418px !important;
-}
-.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
+  .category-dropdown-menu {
+    width: auto !important;
+  }
+
+  .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
     line-height: 5px !important;
-    width: 418px !important; 
-}
-  
+    width: 300px !important;
+  }
+
+  .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
+    width: 418px !important;
+  }
+
+  .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
+    line-height: 5px !important;
+    width: 418px !important;
+  }
 </style>

@@ -37,7 +37,11 @@
     <a href="categories">Categories</a>
     <span>></span>
     <span><?php echo @$CATEGORY_TITLE; ?></span>
-    <?php }else if($pageName == 'cold-drawn-bright-bar-manufacturer.php'){ ?>
+	<?php }else if($pageName == 'hex-bars-manufacturer-india.php'){ ?>
+    <a href="categories">Categories</a>
+    <span>></span>
+    <span><?php echo @$CATEGORY_TITLE; ?></span>
+	<?php }else if($pageName == 'cold-drawn-bright-bar-manufacturer.php'){ ?>
     <a href="categories">Categories</a>
     <span>></span>
     <span><?php echo @$CATEGORY_TITLE; ?></span>
