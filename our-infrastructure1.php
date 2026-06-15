@@ -1,5 +1,5 @@
 <?php include 'include/header.php'; ?>
-<style>
+<!-- <style>
 
   .soon {
     height: 60vh;
@@ -16,13 +16,6 @@
     justify-content: center;
     align-items: center;
   }
-
-  </style>
-<!-- start page title -->
-<section class="page-title-separate-breadcrumbs">
-
-</section>
-
 </style>
 <div class="soon">
   <div class="container">
@@ -33,6 +26,5 @@
     </div>
 
   </div>
-</div>
-
+</div> -->
 <?php include 'include/footer.php'; ?>
