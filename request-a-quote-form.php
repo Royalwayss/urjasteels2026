@@ -1,7 +1,7 @@
 <div id="request-a-quote">
               <div class="urja-contact-box position-relative">
                 <!-- <img src="phone.png" class="urja-phone-img" alt="phone"> -->
-                <h2>Request a Quote | Send Your Requirement | Talk to Sales Team</h2>
+                <h2 class="text-white mb-5 text-center">Request a Quote | Send Your Requirement | Talk to Sales Team</h2>
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="icon-with-text-style-01 mb-5">

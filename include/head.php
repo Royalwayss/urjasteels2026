@@ -132,7 +132,7 @@
 <link rel="stylesheet" href="css/icon.min.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/dev.css" />
-<link rel="stylesheet" href="css/urja.css?v=1.0" />
+<link rel="stylesheet" href="css/urja.css?v=2.0" />
 <link rel="stylesheet" href="css/responsive.css" />
 <link rel="stylesheet" href="css/digital-agency/digital-agency.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />

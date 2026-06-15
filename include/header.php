@@ -26,12 +26,12 @@
             </a>
           </div>
           <div class="col-auto menu-order">
-            <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-            </button>
+        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-line"></span>
+<span class="navbar-toggler-line"></span>
+<span class="navbar-toggler-line"></span>
+<span class="navbar-toggler-line"></span>
+</button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav alt-font">
                 <li class="nav-item"><a href="<?php echo BASE_URL; ?>" class="nav-link">Home</a></li>

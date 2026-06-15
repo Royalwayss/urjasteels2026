@@ -1,4 +1,6 @@
-
+@media (max-width: 991px) {
+    .navbar-toggler-line { pointer-events: none; }
+  }
 .new-header-dd {
     display: flex;
     align-items: center;
@@ -1339,9 +1341,9 @@ box-shadow:0 0 0 0 rgba(13,110,253,0);
         max-height: auto !important;
     }
     .pages-inner-heading {
-    font-size: 28px !important;
+    font-size: 22px !important;
     letter-spacing: 1px !important;
-    line-height: 40px ;
+    line-height: 30px;
    }
 
   .about-banner {
