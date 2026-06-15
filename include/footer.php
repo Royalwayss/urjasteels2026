@@ -91,7 +91,28 @@
         <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
       </a>
     </div>
-
+<script>
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.navbar-toggler');
+    if (!btn) return;
+    var nav = document.getElementById('navbarNav');
+    if (!nav) return;
+ 
+    // Only act when the menu is OPEN -> force-close it
+    if (nav.classList.contains('show')) {
+      e.preventDefault();
+      e.stopImmediatePropagation(); // stop Bootstrap's own toggle from re-opening
+      if (window.bootstrap && bootstrap.Collapse) {
+        var c = bootstrap.Collapse.getInstance(nav) || new bootstrap.Collapse(nav, { toggle: false });
+        c.hide();
+      } else {
+        nav.classList.remove('show'); // fallback if bootstrap JS isn't on window
+      }
+      btn.setAttribute('aria-expanded', 'false');
+    }
+    // when CLOSED: do nothing -> native data-bs-toggle opens it (theme overlay fires)
+  }, true); // capture phase, runs before Bootstrap
+</script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
