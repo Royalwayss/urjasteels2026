@@ -30,6 +30,7 @@
 </script>
 <meta charset="utf-8">
 <meta property="og:site_name" content="Urja Steels" />
+ <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <link rel="icon" href="images/urja/favicon.ico" type="image/x-icon">
 <?php if($pageName == 'index.php'){ ?>
 <title>Bright Bars - Peeled Bar, Hard Chrome Plated Steel Bar, Round, Hexagonal & Sqaure Bars | High Quality Steel Products Manufacturer, Exporters & Suppliers in India</title>
