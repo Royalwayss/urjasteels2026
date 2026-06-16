@@ -66,7 +66,7 @@
       <div class="login-form">
          <form action="check_login.php" method="post">
             <div class="imgcontainer">
-               <img src="../images/logo.png" >
+               <img src="../images/urja/urja-logo.png" >
             </div>
             <div class="container">
 			   <?php if(isset($_GET['err'])){ ?>
