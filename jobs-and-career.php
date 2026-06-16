@@ -53,6 +53,12 @@
               <div class="col-12">
                 <textarea name="message" rows="5" class="form-control" placeholder="Tell us about yourself*"></textarea>
               </div>
+			  
+			  
+			   <div class="col-12">
+				  <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpired"></div>
+				  <input id="hidden-grecaptcha" name="hidden-grecaptcha" type="hidden" />
+                </div>
 
               <div class="col-12 text-center">
                 <button class="urja-submit mt-2">APPLY NOW</button>
@@ -72,6 +78,7 @@
 
 <script src="js/jquery.validate.min.js"></script>
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
   $(function() {
     $("#contact-form").validate({
@@ -97,7 +104,10 @@
         },
         message: {
           required: true
-        }
+        },
+		"hidden-grecaptcha": {
+          required: true,
+        },
       },
       messages: {
         first_name: {
@@ -111,8 +121,17 @@
           required: "Enter a valid mobile number",
           minlength: "Mobile number must be at least 8 digits."
         },
+		 position_applying_for: {
+		  required: "Please select the position you are applying for"
+		},
+		resume: {
+		  required: "Please upload your resume"
+		},
         message: {
           required: "Please enter message"
+        },
+		"hidden-grecaptcha": {
+          required: "Please complete the CAPTCHA to continue."
         }
       },
       submitHandler: function(form) {
@@ -140,4 +159,10 @@
       }
     });
   });
+  
+   function recaptchaCallback() {
+    var response = grecaptcha.getResponse(),
+      $button = jQuery(".document-btn");
+    jQuery("#hidden-grecaptcha").val(response);
+  }
 </script>

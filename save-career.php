@@ -67,10 +67,9 @@
 		
 		
 		
-		 /*
-		if($_SERVER['HTTP_HOST'] != 'localhost'){
+		 if($_SERVER['HTTP_HOST'] != 'localhost'){
 			
-					$recaptcha_secret = RECAPTCHA_SECRET_KEY;
+					$recaptcha_secret = RECAPTCHA_SECRET_KEY; 
 					$recaptcha_response = $_POST['g-recaptcha-response'];
 
 					$recaptcha_api_url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -87,7 +86,7 @@
 					];
 
 					$context = stream_context_create($options);
-					$api_result = file_get_contents($recaptcha_api_url, false, $context);
+					$api_result = @file_get_contents($recaptcha_api_url, false, $context);
 					$json = json_decode($api_result);
 
 					if ($json->success) {
@@ -96,8 +95,7 @@
 					  echo '{ "alert": "alert alert-danger alert-dismissable", "message": "Your message could not been sent!" }'; die;
 					} 
 			   
-   } */ 
-		
+        } 
 		
 		
 		
