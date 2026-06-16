@@ -1,4 +1,5 @@
 <?php 
+session_start();
 include('include/db_config.php');
 $data = $_POST;
 $user_login = '';

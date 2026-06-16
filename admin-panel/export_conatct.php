@@ -1,5 +1,6 @@
 <?php
-     include('include/db_config.php');
+     session_start(); 
+	 include('include/db_config.php');
 	 if(empty($_SESSION['admin_id']) || empty($_SESSION['admin_name'])){
 	    echo '<script>window.location.href="index.php"; </script>'; die;
      }	
