@@ -204,9 +204,9 @@
 		$last_name = mysqli_real_escape_string($conn, $last_name);
 		$position_applying_for = mysqli_real_escape_string($conn, $position_applying_for);
 		$message = mysqli_real_escape_string($conn, $message);
+		$created_at = date('Y-m-d H:i:s');
 		
-		
-		$sql = "INSERT INTO careers (first_name,last_name,email,mobile,position_applying_for,resume,message) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$position_applying_for."','".$resume."','".$message."')";
+		$sql = "INSERT INTO careers (first_name,last_name,email,mobile,position_applying_for,resume,message,created_at) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$position_applying_for."','".$resume."','".$message."','".$created_at."')";
 		mysqli_query($conn,$sql);
 						
 				$mail_message = 

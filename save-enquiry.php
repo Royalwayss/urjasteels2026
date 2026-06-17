@@ -202,9 +202,9 @@
 		$first_name = mysqli_real_escape_string($conn, $first_name);
 		$last_name = mysqli_real_escape_string($conn, $last_name);
 		$message = mysqli_real_escape_string($conn, $message);
+		$created_at = date('Y-m-d H:i:s');
 		
-		
-		$sql = "INSERT INTO enquiries (first_name,last_name,email,mobile,whatsapp_mobile,company,state,city,country,category,page_url,message) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$whatsapp_mobile."','".$company."','".$state."','".$city."','".$country."','".$category."','".$pageUrl."','".$message."')";
+		$sql = "INSERT INTO enquiries (first_name,last_name,email,mobile,whatsapp_mobile,company,state,city,country,category,page_url,message,created_at) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$whatsapp_mobile."','".$company."','".$state."','".$city."','".$country."','".$category."','".$pageUrl."','".$message."','".$created_at."')";
 		mysqli_query($conn,$sql);
 						
 				
