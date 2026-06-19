@@ -76,25 +76,25 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <form class="urja-contact-form" id="contact-form" novalidate="novalidate">
-                     <input type="hidden" name="category" value="<?php echo $CATEGORY_TITLE; ?>">
-                      <input type="text" name="first_name" class="form-control" placeholder="First Name*">
+                     <form class="urja-contact-form" id="contact-form">
 
-                      <input type="text" name="last_name" class="form-control" placeholder="Last Name">
+            <input type="text" name="first_name" class="form-control" placeholder="First Name*">
 
-                      <input type="email" name="email" class="form-control" placeholder="E-mail*">
+            <input type="text" name="last_name" class="form-control" placeholder="Last Name">
 
-                      <input type="number" name="mobile" id="mobile_number" class="form-control" placeholder="Mobile*">
+            <input type="email" name="email" class="form-control" placeholder="E-mail*">
 
-                      <input type="number" name="whatsapp_mobile" id="whatsapp_mobile_number" class="form-control" placeholder="WhatsApp Number*">
-                      <input type="checkbox" id="same_as_mobile" style="width:100px" placeholder="WhatsApp Number*"><span style="color:#fff">Same as Mobile</span>
+            <input type="number" name="mobile" id="mobile_number" class="form-control" placeholder="Mobile*">
 
-                      <input type="text" name="company" class="form-control" placeholder="Company Name">
+            <input type="number" name="whatsapp_mobile" id="whatsapp_mobile_number" class="form-control" placeholder="WhatsApp Number*">
+            <input type="checkbox" id="same_as_mobile" style="width:100px" placeholder="WhatsApp Number*"><span style="color:#fff">Same as Mobile</span>
 
-                      <input type="text" name="city" class="form-control" placeholder="City">
-                      <input type="text" name="state" class="form-control" placeholder="State">
+            <input type="text" name="company" class="form-control" placeholder="Company Name">
 
-                      <?php
+            <input type="text" name="city" class="form-control" placeholder="City">
+            <input type="text" name="state" class="form-control" placeholder="State">
+
+            <?php
 						$countries = [
 							"Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria",
 							"Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan",
@@ -119,28 +119,35 @@
 						];
 
 						?>
-						
-						
-						<select name="country" class="form-control">
-							<option value="" disabled> Select Country*</option>
-							<?php foreach($countries as $country) { ?>
-							<option option="<?php echo $country; ?>" <?php if($country == 'India'){ echo 'selected'; } ?>><?php echo $country; ?></option>
-							<?php } ?>
-						</select>
-						
-					
-                      <textarea rows="5" name="message" class="form-control" placeholder="Message / Requirement*"></textarea>
-                      <br>
 
-                      <div class="col-md-12 contact-input mb-3 pl-0">
+            <select name="country" class="form-control">
+              <option value="" disabled> Select Country*</option>
+              <?php foreach($countries as $country) { ?>
+              <option option="<?php echo $country; ?>" <?php if($country == 'India'){ echo 'selected'; } ?>><?php echo $country; ?></option>
+              <?php } ?>
+            </select>
+            <?php $products = ['Round Bars', 'Bright Bars', 'HR Coil', 'Pipes', 'Steel Billets', 'Others']; ?>
+            <select name="product" class="form-control">
+              <option value=""> Select Product*</option>
+              <?php foreach($products as $product) { ?>
+              <option option="<?php echo $product; ?>"><?php echo $product; ?></option>
+              <?php } ?>
+            </select>
 
-							   <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpired"></div>
-							   <input id="hidden-grecaptcha" name="hidden-grecaptcha" type="hidden"/>
-			              </div>
-                      <br>
-                      <button class="urja-submit mt-2">SUBMIT</button>
-                      <div class="form-results mt-2"></div>
-                    </form>
+            <input type="number" name="quantity" class="form-control" placeholder="Approximate Quantity*" min="1">
+
+            <textarea rows="5" name="message" class="form-control" placeholder="Message / Requirement*"></textarea>
+            <br>
+
+            <div class="col-md-12 contact-input mb-3 pl-0">
+
+              <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpired"></div>
+              <input id="hidden-grecaptcha" name="hidden-grecaptcha" type="hidden" />
+            </div>
+            <br>
+            <button class="urja-submit mt-2">SUBMIT</button>
+            <div class="form-results mt-2"></div>
+          </form>
 
                   </div>
 

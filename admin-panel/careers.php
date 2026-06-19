@@ -1,126 +1,96 @@
-<?php session_start(); ?>
-<!DOCTYPE html>
-<html>
-   <head>
-      <title></title>
-      <?php include('include/css.php'); ?>
-	  <style>
-	   .viewed-internship{
-			padding: 10px;
-			font-size: 12px;
-			font-weight: bold;
-			color: #FFFFFF;
-			background-color: #35aa47;
-			margin-right: 10px;
-			cursor: pointer;
-		}
-		.not-viewed-internship{
-			padding: 10px;
-			font-size: 12px;
-			font-weight: bold;
-			color: #FFFFFF;
-			background-color: #f68f98;
-			margin-right: 10px;
-			cursor: pointer;
-		}
-		.modal {
-		  display: none; /* Hidden by default */
-		  position: fixed; /* Stay in place */
-		  z-index: 1; /* Sit on top */
-		  padding-top: 100px; /* Location of the box */
-		  left: 0;
-		  top: 0;
-		  width: 100%; /* Full width */
-		  height: 100%; /* Full height */
-		  overflow: auto; /* Enable scroll if needed */
-		  background-color: rgb(0,0,0); /* Fallback color */
-		  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-		}
+<?php  
+session_start();
+include('include/header.php');
+?>
 
-		/* Modal Content */
-		.modal-content {
-		  background-color: #fefefe;
-		  margin: auto;
-		  padding: 20px;
-		  border: 1px solid #888;
-		  width: 80%;
-		}
+<body>
+  <?php include('include/sidebar.php'); ?>
+  <!-- Main -->
+  <div class="main-content">
+    <div class="page-title">Careers Management</div>
+    <div class="breadcrumb-text"><a href="dashboard.php">Dashboard</a></div>
 
-		/* The Close Button */
-		.close {
-		  color: #aaaaaa;
-		  float: right;
-		  font-size: 28px;
-		  font-weight: bold;
-		}
+    <div class="card-panel">
+      <!-- Top bar -->
 
-		.close:hover,
-		.close:focus {
-		  color: #000;
-		  text-decoration: none;
-		  cursor: pointer;
-		}
-		.label{
-			 font-weight: bold;
-			 padding: 4px;
-			 margin-top: 4px;
-		}
-		#Internship-List_filter label{
-			margin-left:280px!important; 
-		}
-		input[type=search] { 	  
-			
-            width:250px;			
-		}
-		header { display: block; }
-       .popup header { display: none; }
-	   .page-item.active .page-link {
-			z-index: 0!important;
-			color: #fff;
-			background-color: #007bff;
-			border-color: #007bff;
-		}
-	  </style>
-   </head>
-<body> 
-<?php include('include/header.php'); ?>
-<div class="container">
-  <h3>Careers</h3>
-  <table class="table table-bordered" id="Internship-List">
-	 <thead>
-		<tr>
-		   <th class="text-left" style="display:none"><b>no</b></th>
-		   <th class="text-left"><b>ID</b></th>
-		   <th class="text-left"><b>NAME</b></th>
-		   <th class="text-left"><b>EMAIL</b></th>
-		   <th class="text-left"><b>MOBILE</b></th> 
-		   <th class="text-left"><b>Position Applying For</b></th> 
-		   <th class="text-left"><b>DATE & TIME </b></th>
-		   <th class="text-left"><b>ACTION</b></th>
-		</tr>
-	 </thead>
-	 <tbody>
-	 <?php 
-     $no  = 1;
-	 $sql = "select * from careers order by id desc";
-	 $result = $conn->query($sql);
-	 if ($result->num_rows > 0) {
-     while($row = $result->fetch_assoc()) {
+      <?php /*
+    <!-- Pagination bar -->
+    <div class="pagination-bar">
+      <span>Page</span>
+      <button class="btn-page">«</button>
+      <button class="btn-page">‹</button>
+      <input type="number" value="1">
+      <span>of 84 | View</span>
+      <select>
+        <option>50</option>
+        <option>100</option>
+        <option>200</option>
+      </select>
+      <span>records | Found total 4,179 records</span>
+    </div> */ ?>
+
+      <!-- Table -->
+      <div style="overflow-x:auto;">
+        <table id="dataTable"class="table table-striped table-bordered table-hover dataTable no-footer">
+          <thead>
+            <tr>
+              <th style="width:40px">No.</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Mobile</th>
+			  
+              <th>Date</th>
+              <th>View</th>
+              
+            </tr>
+            <!-- Filter row -->
+            <?php /*<tr class="filter-row">
+            <td></td>
+            <td><input type="text" placeholder="Name"></td>
+            <td><input type="text" placeholder="Email"></td>
+            <td></td>
+            <td>
+              <div class="date-filter">
+                <div class="date-filter-row">
+                  <span>From</span>
+                  <input type="text" placeholder="dd/mm/yyyy">
+                  <button class="cal-btn"><i class="fa fa-calendar"></i></button>
+                </div>
+                <div class="date-filter-row">
+                  <span>To</span>
+                  <input type="text" placeholder="dd/mm/yyyy">
+                  <button class="cal-btn"><i class="fa fa-calendar"></i></button>
+                </div>
+              </div>
+            </td>
+            <td></td>
+            <td>
+              <div class="actions-cell">
+                <button class="btn-action btn-search-action"><i class="fa fa-search"></i></button>
+                <button class="btn-action btn-reset-action"><i class="fa fa-rotate-left"></i></button>
+              </div>
+            </td>
+          </tr> */ ?>
+          </thead>
+          <tbody id="userTableBody">
+            <?php 
+			 $no  = 1;
+			 $sql = "select * from careers order by id desc";
+			 $result = $conn->query($sql);
+			 if ($result->num_rows > 0) {
+			 while($row = $result->fetch_assoc()) {
      
-	 ?>
-		<tr>
-		   <td class="text-left" style="display:none"><?php echo $no; ?></td>
-		   <td class="text-left"><?php echo $row['id']; ?></td>
-		   <td class="text-left"><?php echo $row['first_name']."<br>".$row['last_name']; ?></td>
-		   <td class="text-left"><?php echo $row['email']; ?></td>
-		   <td class="text-left"><?php echo $row['mobile']; ?></td>
-		   <td class="text-left"><?php echo $row['position_applying_for']; ?></td>
-		   
-		   <td class="text-left"><?php echo date('d F Y h:i:a',strtotime($row['created_at'])); ?></td>
-		   <td class="text-left" onclick="view_internship(<?php echo $row['id']; ?>,<?php echo $row['view_status']; ?>);" ><span <?php if($row['view_status'] == 0){ ?> class="not-viewed-internship" <?php }else{ ?> class="viewed-internship" <?php } ?> id="internship-row-<?php echo $row['id']; ?>">VIEW</span></td>
-		</tr>
-		
-		<div id="myModal<?php echo $row['id']; ?>" class="modal">
+			?>
+            <tr>
+              <td><?php echo $no; ?></td>
+              <td><?php echo $row['first_name']."<br>".$row['last_name']; ?></td>
+              <td><?php echo $row['email']; ?></td>
+              <td><?php echo $row['mobile']; ?></td>
+			  
+              <td><?php echo date('d F Y h:i:a',strtotime($row['created_at'])); ?></td>
+              <td class="text-left" onclick="view_internship(<?php echo $row['id']; ?>,<?php echo $row['view_status']; ?>);" ><span <?php if($row['view_status'] == 0){ ?> class="not-viewed-internship" <?php }else{ ?> class="viewed-internship" <?php } ?> id="internship-row-<?php echo $row['id']; ?>">VIEW</span></td>
+            </tr>
+			<div id="myModal<?php echo $row['id']; ?>" class="modal">
 			<!-- Modal content -->
 			  <div class="modal-content">
 				<?php /*
@@ -178,18 +148,18 @@
 		</div>
 		
 		
-		
-	 <?php  $no++; } }?>
-	 </tbody>
-  </table>
-</div>
-<?php include('include/footer.php'); ?>   
-<script src="js/jquery-3.5.1.js"></script>
-<script src="js/jquery.dataTables.min.js"></script>
-<script src="js/dataTables.bootstrap4.min.js"></script>
-<script>
+            <?php  $no++; } }?>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+  <?php include('include/footer.php'); ?>
+  <script>
 $(document).ready(function () {
-    $('#Internship-List').DataTable();
+    $('#dataTable').DataTable();
 });
      function view_internship(id,view_status){
 		 if( view_status == 0){
@@ -216,6 +186,4 @@ $(document).ready(function () {
 		var modal = document.getElementById("myModal"+id);
 		modal.style.display = "none";
 	}
-</script>  
-</body>
-</html>
+</script> 

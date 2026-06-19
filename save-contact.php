@@ -97,6 +97,19 @@ if(isset($data['quantity']) && $data['quantity'] != ''){
 		$err = 1; 	
 	}
 	
+	
+if(isset($_GET['page']) && $_GET['page'] != ''){
+		$page = 'Product';
+	}else{
+		$page ='Contact';
+		
+	}
+	
+	
+	
+	
+	
+	
 	if( $err == '' ) {
 		
 		
@@ -194,7 +207,14 @@ if(isset($data['quantity']) && $data['quantity'] != ''){
 		$message = mysqli_real_escape_string($conn, $message);
 		$created_at = date('Y-m-d H:i:s');
 		
-		$sql = "INSERT INTO contacts (first_name,last_name,email,mobile,whatsapp_mobile,product,company,state,city,country,quantity,message,created_at) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$whatsapp_mobile."','".$product."','".$company."','".$state."','".$city."','".$country."','".$quantity."','".$message."','".$created_at."')";
+		
+		
+		
+		
+		
+		
+		
+		$sql = "INSERT INTO contacts (first_name,last_name,email,mobile,whatsapp_mobile,product,company,state,city,country,quantity,message,page,created_at) VALUES ('".$first_name."','".$last_name."','".$email."','".$mobile."','".$whatsapp_mobile."','".$product."','".$company."','".$state."','".$city."','".$country."','".$quantity."','".$message."','".$page."','".$created_at."')";
 		mysqli_query($conn,$sql);
 						
 				/*
