@@ -1,6 +1,6 @@
-<?php  
+<?php 
 session_start();
-include('include/header.php');
+include('include/header.php');  
  $result = $conn->query("select * from contacts order by id desc");
 	 $total_contact_count = $result->num_rows;
 
@@ -10,7 +10,7 @@ include('include/header.php');
 <style>
   .count-box {
     background: #fff;
-    width: 250px;
+    width: 450px;
     padding: 25px;
     border-radius: 12px;
     text-align: center;
@@ -56,15 +56,23 @@ include('include/header.php');
       <!-- Top bar -->
 
       <div class="container">
+      <div class="row">
 
         <div class="count-box">
+        <div class="col-6">
           <h2>Total Contacts</h2>
           <p><?php echo $total_contact_count ?></p>
+          <a  style="text-decoration: none;" href="contacts.php" >View Contacts</a>
+        </div>
         </div>
 
+        <div class="col-6">
         <div class="count-box">
           <h2>Total Careers</h2>
           <p><?php echo $total_career_count; ?></p>
+		   <a  style="text-decoration: none;" href="careers.php" >View Careers</a>
+        </div>
+        </div>
         </div>
 
       </div>

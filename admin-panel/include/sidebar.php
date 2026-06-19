@@ -10,6 +10,7 @@
    
     <a href="contacts.php"><i class="fa fa-address-book"></i> Contacts</a>
     <a href="careers.php"><i class="fa fa-address-book"></i> Careers</a>
+    <a href="logout.php"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a>
    
   </nav>
 </div>
