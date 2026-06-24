@@ -5,17 +5,13 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16920566782"></script>
 
 <script>
-
   window.dataLayer = window.dataLayer || [];
 
-  function gtag(){dataLayer.push(arguments);}
-
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
-
- 
-
   gtag('config', 'AW-16920566782');
-
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E354DDPXB8"></script>
@@ -30,7 +26,7 @@
 </script>
 <meta charset="utf-8">
 <meta property="og:site_name" content="Urja Steels" />
- <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <link rel="icon" href="images/urja/favicon.ico" type="image/x-icon">
 <?php if($pageName == 'index.php'){ ?>
 <title>Bright Bars - Peeled Bar, Hard Chrome Plated Steel Bar, Round, Hexagonal & Sqaure Bars | High Quality Steel Products Manufacturer, Exporters & Suppliers in India</title>
@@ -119,7 +115,26 @@
 <meta name="description" content="Urja Steels manufactures high-quality precision hexagonal steel bars in India for fasteners, CNC machining and engineering. Available in EN8, EN9, EN19, EN24 & C45 grades. Get a free quote for precision-engineered hexagonal steel bars.">
 
 <meta name="keywords" content="hexagonal steel bars, hex bars manufacturer India, steel bars for fasteners, cnc machining hex bars, carbon steel hex bars">
-<?php }else if($pageName == 'testtttt.php'){ ?>
+<?php }else if($pageName == 'steel-solutions-for-hydraulic-and-pneumatic-industries.php'){ ?>
+<title>Steel Solutions for Hydraulic & Pneumatic Industries - Precision Steel Products for Hydraulic Cylinders, Motion Systems & Industrial Fluid Power Applications</title>
+
+<meta name="description" content="Looking for Reliable Steel Solutions for Hydraulic & Pneumatic Industries? Connect with Urja Steels for precision-engineered steel products designed for hydraulic cylinders, pneumatic systems, industrial automation and heavy engineering applications.">
+<?php }else if($pageName == 'steel-solutions-for-fastener-manufacturing-industry.php'){ ?>
+<title>Steel Solutions for Fastener Manufacturing Industry - Precision Steel Products for Nuts, Bolts, Threaded Components & Industrial Fasteners</title>
+
+<meta name="description" content="Looking for Reliable Steel Solutions for Fastener Manufacturing? Connect with Urja Steels for precision-engineered steel products designed for nuts, bolts, threaded components, industrial fasteners and engineering hardware applications.">
+<?php }else if($pageName == 'steel-solutions-for-construction-and-infrastructure-industry.php'){ ?>
+<title>Steel Solutions for Construction & Infrastructure Industry - High-Strength Steel Products for Structural, Engineering & Infrastructure Applications</title>
+
+<meta name="description" content="Looking for Reliable Steel Solutions for Construction & Infrastructure Projects? Connect with Urja Steels for precision-engineered steel products designed for structural engineering, fabrication, industrial manufacturing and infrastructure applications.">
+<?php }else if($pageName == 'steel-solutions-for-the-automotive-industry.php'){ ?>
+<title>Steel Solutions for the Automotive Industry - Precision Engineering Steel for Automotive Components & Manufacturing Applications</title>
+
+<meta name="description" content="Looking for Reliable Steel Solutions for the Automotive Industry? Connect with Urja Steels for precision-engineered steel products designed for automotive manufacturing, machining, engineering and industrial production applications.">
+<?php }else if($pageName == 'steel-solutions-for-cnc-machining-and-precision-engineering-industry.php'){ ?>
+<title>Steel Solutions for CNC Machining & Precision Engineering Industry - Precision Steel Products Designed for Accuracy, Consistency & High-Speed Machining Applications</title>
+
+<meta name="description" content="Looking for Reliable Steel Solutions for CNC Machining & Precision Engineering? Connect with Urja Steels for precision-engineered steel products designed for CNC machining, industrial automation, precision engineering and high-accuracy manufacturing applications.">
 <?php }else if($pageName == 'testtttt.php'){ ?>
 <title>Urja Steel</title>
 <?php } ?>
@@ -128,13 +143,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- style sheets and font icons  -->
-<link rel="stylesheet" href="css/vendors.min.css" />
-<link rel="stylesheet" href="css/icon.min.css" />
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/dev.css" />
-<link rel="stylesheet" href="css/urja.css?v=2.0" />
-<link rel="stylesheet" href="css/responsive.css" />
-<link rel="stylesheet" href="css/digital-agency/digital-agency.css" />
+<link rel="stylesheet" href="<?php echo BASEURL; ?>css/vendors.min.css" />
+<link rel="stylesheet" href="<?php echo BASEURL; ?>css/icon.min.css" />
+<link rel="stylesheet" href="<?php echo BASEURL; ?>css/style.css" />
+<link rel="stylesheet" href="<?php echo BASEURL; ?>css/dev.css" />
+<link rel="stylesheet" href="<?php echo BASEURL; ?>css/urja.css?v=2.0" />
+<link rel="stylesheet" href="<?php echo BASEURL; ?>css/responsive.css" />
+<link rel="stylesheet" href="<?php echo BASEURL; ?>css/digital-agency/digital-agency.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <style>

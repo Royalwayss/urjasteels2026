@@ -63,7 +63,28 @@
     <span><?php echo @$CATEGORY_TITLE; ?></span>
     <?php }else if($pageName == 'peeled-ground-round-steel-bars-manufacturers.php'){ ?>
     <span>></span>
-    <?php }else if($pageName == 'testttttttt.php'){ ?>
+    <?php }else if($pageName == 'our-infrastructure.php'){ ?>
+     <span>Our Infrastructure</span>
+	<?php }else if($pageName == 'steel-solutions-for-the-automotive-industry.php'){ ?>
+    <a href="<?php echo BASEURL; ?>our-infrastructure">Our Infrastructure</a>
+    <span>></span>
+    <span><?php echo @$CATEGORY_TITLE; ?></span>
+    <?php }else if($pageName == 'steel-solutions-for-hydraulic-and-pneumatic-industries.php'){ ?>
+	 <a href="<?php echo BASEURL; ?>our-infrastructure">Our Infrastructure</a>
+    <span>></span>
+    <span><?php echo @$CATEGORY_TITLE; ?></span>
+    <?php }else if($pageName == 'steel-solutions-for-fastener-manufacturing-industry.php'){ ?>
+	 <a href="<?php echo BASEURL; ?>our-infrastructure">Our Infrastructure</a>
+    <span>></span>
+    <span><?php echo @$CATEGORY_TITLE; ?></span>
+    <?php }else if($pageName == 'steel-solutions-for-construction-and-infrastructure-industry.php'){ ?>
+	<a href="<?php echo BASEURL; ?>our-infrastructure">Our Infrastructure</a>
+    <span>></span>
+    <span><?php echo @$CATEGORY_TITLE; ?></span>
+    <?php }else if($pageName == 'steel-solutions-for-cnc-machining-and-precision-engineering-industry.php'){ ?>
+	<a href="<?php echo BASEURL; ?>our-infrastructure">Our Infrastructure</a>
+    <span>></span>
+    <span><?php echo @$CATEGORY_TITLE; ?></span>
     <?php }else if($pageName == 'testttttttt.php'){ ?>
     <?php }else if($pageName == 'testttttttt.php'){ ?>
     <?php } ?>

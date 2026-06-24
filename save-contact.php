@@ -43,7 +43,7 @@
 		$company = $data['company'];
 	}else{
 		$company ='';
-		$err = 1; 	
+		
 	} 
 	
 	if(isset($data['whatsapp_mobile']) && $data['whatsapp_mobile'] != ''){
@@ -85,7 +85,7 @@
 		$country = $data['country'];
 	}else{
 		$country ='';
-		$err = 1; 	
+			
 	}
 
 
@@ -99,7 +99,12 @@ if(isset($data['quantity']) && $data['quantity'] != ''){
 	
 	
 if(isset($_GET['page']) && $_GET['page'] != ''){
-		$page = 'Product';
+		if($_GET['page'] == 'product'){
+			$page = 'Product';
+		}else{
+			$page = 'Industry';
+		}
+		
 	}else{
 		$page ='Contact';
 		

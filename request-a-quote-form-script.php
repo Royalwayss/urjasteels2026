@@ -1,5 +1,12 @@
+<?php
 
-<script src="js/jquery.validate.min.js"></script>
+if(isset($industry_page) &&  $industry_page == true){
+	$page = 'industry';
+}else{
+    $page = 'product';
+}
+?>
+<script src="<?php echo BASEURL; ?>js/jquery.validate.min.js"></script>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -70,12 +77,12 @@
       submitHandler: function(form) {
         var formObj = $("#contact-form");
         resultsObj = formObj.find('.form-results');
-        var actionURL = 'save-contact.php?page=product';
+        var actionURL = '<?php echo BASEURL; ?>save-contact.php?page=<?php echo $page; ?>';
         $.ajax({
           type: 'POST',
           url: actionURL,
           data: formObj.serialize(),
-          success: function(result) {
+          success: function(result) { 
             if (typeof(result) !== 'undefined' && result !== null) {
               result = $.parseJSON(result);
             }

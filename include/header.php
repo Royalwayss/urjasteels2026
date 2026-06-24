@@ -20,15 +20,15 @@
             <div class="container">
                 <div class="col-auto">
                     <a class="navbar-brand" href="<?php echo BASE_URL; ?>">
-                        <img src="images/urja/urja-logo.png" data-at2x="images/urja/urja-logo.png"
+                        <img src="<?php echo BASEURL; ?>images/urja/urja-logo.png" data-at2x="<?php echo BASEURL; ?>images/urja/urja-logo.png"
                             alt="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India"
                             title="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India"
                             class="default-logo">
-                        <img src="images/urja/urja-logo.png" data-at2x="images/urja/urja-logo.png"
+                        <img src="<?php echo BASEURL; ?>images/urja/urja-logo.png" data-at2x="<?php echo BASEURL; ?>images/urja/urja-logo.png"
                             alt="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India"
                             title="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India"
                             class="alt-logo">
-                        <img src="images/urja/urja-logo.png" data-at2x="images/urja/urja-logo.png"
+                        <img src="<?php echo BASEURL; ?>images/urja/urja-logo.png" data-at2x="<?php echo BASEURL; ?>images/urja/urja-logo.png"
                             alt="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India"
                             title="Top Steel Exporters - Bright Bar, Peeled Bar, Round Bar, Honed Tubes, HR Coil and Billets Manufacturers and Suppliers in India"
                             class="mobile-logo">
@@ -46,11 +46,11 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav alt-font">
                             <li class="nav-item"><a href="<?php echo BASE_URL; ?>" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="about-us" class="nav-link">About us</a></li>
+                            <li class="nav-item"><a href="<?php echo BASEURL; ?>about-us" class="nav-link">About us</a></li>
                             <li class="nav-item dropdown dropdown-with-icon-style02">
                                 <div class="new-header-dd ">
                                     <!-- Products Link -->
-                                   <a href="#" class="nav-link mb-0">Products</a>
+                                   <a href="#" class="nav-link mb-0">Products 	</a>
                                     <!-- Arrow Icon -->
                                     <a class="nav-link dropdown-toggle dropdown-toggle-split p-0 ms-2" href="#"
                                         id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
@@ -59,37 +59,64 @@
                                     </a>
                                     <!-- Dropdown -->
                                     <ul class="dropdown-menu urja-subdropdown" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="hot-rolled-coils">HR Coil</a></li>
-                                        <li><a class="dropdown-item" href="round-bars-manufacturer-india">Round Bars</a>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>hot-rolled-coils">HR Coil</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>round-bars-manufacturer-india">Round Bars</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="steel-pipes-and-honed-tubes">Pipes</a></li>
-                                        <li><a class="dropdown-item" href="bright-bars-manufacturer-india">Bright
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>steel-pipes-and-honed-tubes">Pipes</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>bright-bars-manufacturer-india">Bright
                                                 Bars</a></li>
-                                        <li><a class="dropdown-item" href="steel-billets-manufacturers">Steel
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>steel-billets-manufacturers">Steel
                                                 Billets</a></li>
                                         <?php /* <li><a class="dropdown-item" href="categories">Categories</a></li> */ ?>
-                                        <li><a class="dropdown-item" href="hex-bars-manufacturer-india">Hex bars</a>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>hex-bars-manufacturer-india">Hex bars</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="annealed-steel-bars-manufacturer">Annealed
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>annealed-steel-bars-manufacturer">Annealed
                                                 Steel Bars</a></li>
-                                        <li><a class="dropdown-item" href="cold-drawn-bright-bar-manufacturer">Cold
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>cold-drawn-bright-bar-manufacturer">Cold
                                                 Drawn Bright Bar</a></li>
                                         <li><a class="dropdown-item"
-                                                href="induction-hardened-steel-bars-manufacturer">Induction Hardened
+                                                href="<?php echo BASEURL; ?>induction-hardened-steel-bars-manufacturer">Induction Hardened
                                                 Steel Bars</a></li>
-                                        <li><a class="dropdown-item" href="hard-chrome-plated-bar-manufacturers">Hard
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>hard-chrome-plated-bar-manufacturers">Hard
                                                 Chrome Plated Bar</a></li>
                                         <li><a class="dropdown-item"
-                                                href="peeled-ground-round-steel-bars-manufacturers">Peeled Ground Round
+                                                href="<?php echo BASEURL; ?>peeled-ground-round-steel-bars-manufacturers">Peeled Ground Round
                                                 Steel Bars</a></li>
-                                        <li><a class="dropdown-item" href="honed-tubes-manufacturer">Honed Tubes</a>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>honed-tubes-manufacturer">Honed Tubes</a>
                                         </li>
 
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="our-infrastructure" class="nav-link">Infrastructure</a></li>
+                            
+							<li class="nav-item dropdown dropdown-with-icon-style02">
+                                <div class="new-header-dd ">
+                                    <!-- Infrastructure Link -->
+                                   <a href="<?php echo BASE_URL; ?>our-infrastructure" class="nav-link mb-0">Infrastructure 	</a>
+                                    <!-- Arrow Icon -->
+                                    <a class="nav-link dropdown-toggle dropdown-toggle-split p-0 ms-2" href="#"
+                                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <!-- Dropdown -->
+                                    <ul class="dropdown-menu urja-subdropdown" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-hydraulic-and-pneumatic-industries">Hydraulic & Pneumatic Steel Solutions</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-fastener-manufacturing-industry">Fastener Manufacturing Steel Solutions</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-construction-and-infrastructure-industry">Construction & Infrastructure Steel Solutions</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-the-automotive-industry">Automotive Industry Steel Solutions</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-cnc-machining-and-precision-engineering-industry">CNC Machining & Precision Engineering Steel Solutions</a></li>
+                                        
+                                        
+                                       
+
+                                    </ul>
+                                </div>
+                            </li>
                             <?php /*
+							<li class="nav-item"><a href="<?php echo BASEURL; ?>our-infrastructure" class="nav-link">Infrastructure</a></li>
+                            
+							
 			   <li class="nav-item dropdown dropdown-with-icon-style02">
                   <div class="new-header-dd ">
                     <!-- Products Link -->
@@ -147,8 +174,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="jobs-and-career" class="nav-link">Career</a></li>
-                            <li class="nav-item"><a href="contact-us" class="nav-link">Contact us</a></li>
+                            <li class="nav-item"><a href="<?php echo BASEURL; ?>jobs-and-career" class="nav-link">Career</a></li>
+                            <li class="nav-item"><a href="<?php echo BASEURL; ?>contact-us" class="nav-link">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
