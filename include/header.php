@@ -103,9 +103,9 @@
                                     <ul class="dropdown-menu urja-subdropdown" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-hydraulic-and-pneumatic-industries">Hydraulic & Pneumatic Steel Solutions</a></li>
                                         <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-fastener-manufacturing-industry">Fastener Manufacturing Steel Solutions</a></li>
-                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-construction-and-infrastructure-industry">Construction & Infrastructure Steel Solutions</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-construction-and-infrastructure-industry">Infrastructure Steel Solutions</a></li>
                                         <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-the-automotive-industry">Automotive Industry Steel Solutions</a></li>
-                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-cnc-machining-and-precision-engineering-industry">CNC Machining & Precision Engineering Steel Solutions</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo BASEURL; ?>industries/steel-solutions-for-cnc-machining-and-precision-engineering-industry">CNC Machining Steel Solutions</a></li>
                                         
                                         
                                        
