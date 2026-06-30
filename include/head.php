@@ -135,6 +135,28 @@
 <title>Steel Solutions for CNC Machining & Precision Engineering Industry - Precision Steel Products Designed for Accuracy, Consistency & High-Speed Machining Applications</title>
 
 <meta name="description" content="Looking for Reliable Steel Solutions for CNC Machining & Precision Engineering? Connect with Urja Steels for precision-engineered steel products designed for CNC machining, industrial automation, precision engineering and high-accuracy manufacturing applications.">
+<?php }else if($pageName == 'blog.php'){ ?>
+<title>Industrial Steel Insights, Steel Products & Technical Guides - Urja Steels</title>
+
+<meta name="description" content="Explore expert insights from Urja Steels. Learn about sourcing high-quality steel, industrial manufacturing standards, precision processing and tips for engineering success.">
+<?php }else if($pageName == 'en8-round-bars-buyers-guide-india.php'){ ?>
+
+<title>EN8 Round Bars Buyer’s Guide - Tips for Sourcing Quality Steel in India</title>
+
+<meta name="description" content="Discover essential tips for sourcing EN8 round bars in India. Learn why straightness, surface finish and inspection protocols are critical for industrial performance.">
+<?php }else if($pageName == 'cold-drawn-round-bar-manufacturers-precision.php'){ ?>
+<title>Why Precision Matters - Choosing Top-Tier Cold Drawn Round Bar Manufacturers in India</title>
+
+<meta name="description" content="Learn why cold drawn round bars are essential for precision engineering. Discover how top-tier manufacturers ensure superior surface finish, tolerance and machinability.">
+<?php }else if($pageName == 'hot-rolled-round-bar-exporters-guide.php'){ ?>
+
+<title>Expert Guide - How Premium Hot Rolled Round Bar Exporters Ensure Quality</title>
+
+<meta name="description" content="Looking for reliable hot rolled round bar exporters? Learn how premium suppliers manage international standards, logistics and quality assurance for global projects.">
+<?php }else if($pageName == 'industrial-steel-supplier-evaluation-tips.php'){ ?>
+<title>How to Choose the Right Industrial Steel Supplier in India - A Buyer’s Checklist</title>
+
+<meta name="description" content="Choosing a steel supplier is an operational decision. Use this expert guide to evaluate processing capabilities, quality assurance and reliability before you quote.">
 <?php }else if($pageName == 'testtttt.php'){ ?>
 <title>Urja Steel</title>
 <?php } ?>

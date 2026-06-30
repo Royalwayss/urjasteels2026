@@ -85,7 +85,24 @@
 	<a href="<?php echo BASEURL; ?>our-infrastructure">Our Infrastructure</a>
     <span>></span>
     <span><?php echo @$CATEGORY_TITLE; ?></span>
-    <?php }else if($pageName == 'testttttttt.php'){ ?>
+    <?php }else if($pageName == 'blog.php'){ ?>
+	<a href="<?php echo BASEURL; ?>blog">Blog</a>
+    <?php }else if($pageName == 'en8-round-bars-buyers-guide-india.php'){ ?>
+	<a href="<?php echo BASEURL; ?>blog">Blog</a>
+    <span>></span>
+    <span><?php echo @$BLOG_TITLE; ?></span>
+    <?php }else if($pageName == 'cold-drawn-round-bar-manufacturers-precision.php'){ ?>
+	<a href="<?php echo BASEURL; ?>blog">Blog</a>
+    <span>></span>
+    <span><?php echo @$BLOG_TITLE; ?></span>
+    <?php }else if($pageName == 'hot-rolled-round-bar-exporters-guide.php'){ ?>
+	<a href="<?php echo BASEURL; ?>blog">Blog</a>
+    <span>></span>
+    <span><?php echo @$BLOG_TITLE; ?></span>
+    <?php }else if($pageName == 'industrial-steel-supplier-evaluation-tips.php'){ ?>
+	<a href="<?php echo BASEURL; ?>blog">Blog</a>
+    <span>></span>
+    <span><?php echo @$BLOG_TITLE; ?></span>
     <?php }else if($pageName == 'testttttttt.php'){ ?>
     <?php } ?>
   </div>
