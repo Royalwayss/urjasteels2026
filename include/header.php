@@ -175,6 +175,7 @@
                                 </div>
                             </li>
                             <li class="nav-item"><a href="<?php echo BASEURL; ?>jobs-and-career" class="nav-link">Career</a></li>
+                            <li class="nav-item"><a href="<?php echo BASEURL; ?>blog" class="nav-link">Blog</a></li>
                             <li class="nav-item"><a href="<?php echo BASEURL; ?>contact-us" class="nav-link">Contact us</a></li>
                         </ul>
                     </div>

@@ -41,7 +41,9 @@
               <li><a href="<?php echo BASEURL; ?>our-infrastructure" class="">Infrastructure</a></li>
 
               <li><a href="<?php echo BASEURL; ?>jobs-and-career" class="">Career</a></li>
-              <li><a href="<?php echo BASEURL; ?>contact-us" class="">Contact us</a></li>
+              <li><a href="<?php echo BASEURL; ?>blog" class="">Blog</a></li>
+			  <li><a href="<?php echo BASEURL; ?>contact-us" class="">Contact us</a></li>
+              
             </ul>
           </div>
           <div class="col-12 col-xl-3 col-lg-4 col-md-6 last-paragraph-no-margin order-lg-2 order-md-3 sm-mb-20px">

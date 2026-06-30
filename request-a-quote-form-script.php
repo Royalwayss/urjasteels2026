@@ -1,9 +1,8 @@
 <?php
-
 if(isset($industry_page) &&  $industry_page == true){
 	$page = 'industry';
 }else{
-    $page = 'product';
+	$page = 'product';
 }
 ?>
 <script src="<?php echo BASEURL; ?>js/jquery.validate.min.js"></script>

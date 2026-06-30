@@ -421,7 +421,7 @@ $industry_page = true;
 <p>Connect with <strong>Urja Steels</strong> for precision-engineered steel products designed for hydraulic cylinders, pneumatic systems, industrial automation, and heavy engineering applications.</p>
 
 <p>From hard chrome plated bars and honed tubes to induction hardened bars and precision round bars, we deliver industrial-grade steel solutions built for motion efficiency, wear resistance, and dependable operational performance.</p>
-			<?php  include('request-a-quote-form.php'); ?>
+			<a href="contact-us" class="urja-read-btn active">Request a Quote </a>
           </div>
          
 		 
@@ -431,4 +431,3 @@ $industry_page = true;
   </div>
 </section>
 <?php include 'include/footer.php'; ?>
-<?php include 'request-a-quote-form-script.php'; ?>
